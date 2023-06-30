@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="295" height="167" viewBox="0 0 295 167">
+  <g id="Grupo_55470" data-name="Grupo 55470" transform="translate(-390 -11123)">
+    <g id="Grupo_54947" data-name="Grupo 54947" transform="translate(5 -35.473)">
+      <text id="I" transform="translate(522 11217)" fill="#12263f" font-size="18" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="-2.716" y="19">I</tspan></text>
+      <text id="V" transform="translate(602 11217)" fill="#12263f" font-size="18" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="-5.946" y="19">V</tspan></text>
+      <path id="Trazado_105794" data-name="Trazado 105794" d="M-8549.333-444h162" transform="translate(9000 11700.5)" fill="none" stroke="#3d3d3d" stroke-width="2"/>
+      <circle id="Elipse_4081" data-name="Elipse 4081" cx="3" cy="3" r="3" transform="translate(448 11254)" fill="#3d3d3d"/>
+      <g id="Grupo_54941" data-name="Grupo 54941" transform="translate(523.701 11250)">
+        <rect id="Rectángulo_5261" data-name="Rectángulo 5261" width="8.17" height="8.987" transform="translate(0 2.451)" fill="#3d3d3d"/>
+        <path id="Polígono_1" data-name="Polígono 1" d="M6.945,0,13.89,11.439H0Z" transform="translate(15.932) rotate(90)" fill="#3d3d3d"/>
+      </g>
+      <g id="Grupo_54942" data-name="Grupo 54942" transform="translate(601.067 11250)">
+        <rect id="Rectángulo_5261-2" data-name="Rectángulo 5261" width="7" height="9" transform="translate(-0.068 2)" fill="#3d3d3d"/>
+        <path id="Polígono_1-2" data-name="Polígono 1" d="M6.945,0,13.89,11.439H0Z" transform="translate(15.932 -1) rotate(90)" fill="#3d3d3d"/>
+      </g>
+    </g>
+    <g id="Rectángulo_5265" data-name="Rectángulo 5265" transform="translate(390 11123)" fill="none" stroke="#e9e9e9" stroke-width="3">
+      <rect width="295" height="167" rx="7" stroke="none"/>
+      <rect x="1.5" y="1.5" width="292" height="164" rx="5.5" fill="none"/>
+    </g>
+  </g>
+</svg>

@@ -8,6 +8,12 @@
         span
           i.fas.fa-info
       h1 Introducción
+
+    p.mb-5 Para dar cuenta de las generalidades de este componente de formación consulte el siguiente video.
+
+    figure.mb-5
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/ko0jyyBydR8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
 </template>
 
