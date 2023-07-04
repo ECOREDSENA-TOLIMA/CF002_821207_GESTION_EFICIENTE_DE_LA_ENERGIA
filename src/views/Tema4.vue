@@ -54,9 +54,9 @@
       .col-md-10
         .bloque-texto-a.color-acento-contenido.p-4.p-md-5.mb-5 
           .row.m-0.align-items-center.justify-content-between
-            .col-lg-4.mb-4.mb-lg-0
-              h3.mb-0 Es la parte dentro del programa de simulación donde se eligen los componentes de las librerías o elegir los componentes que formarán los circuitos eléctricos.
-            .col-lg-8
+            .col-lg-5.mb-4.mb-lg-0
+              p.mb-0 <b>Es la parte dentro del programa de simulación donde se eligen los componentes de las librerías o elegir los componentes que formarán los circuitos eléctricos.</b>
+            .col-lg-7
               .bloque-texto-a__texto.p-4
                 p.mb-0 Para seleccionar los componentes se debe estar en el modo donde se habiliten las funciones de esta opción, para lo cual, simplemente, se presiona un botón o algo por el estilo en la barra de herramientas del <i>software</i>.
 
@@ -225,7 +225,7 @@
 
     p.mb-5 Durante cualquier simulación se puede realizar pausas y ejecutar una simulación paso a paso que está en la mayoría de los simuladores. En algunos simuladores mientras la simulación permanezca en este estado y se lleve el cursor del <i>mouse</i> sobre cualquier componente, este tomará la forma de una mano. Al hacer un clic sobre cualquier componente del circuito se mostrará una ventana que contiene información sobre los parámetros del componente en ese momento. Estos parámetros son llamados parámetros instantáneos y son los siguientes:
 
-    .row.justify-content-center.mb-4
+    .row.mb-4
       .col-auto
         ol.lista-ol--cuadro.lista-ol--separador
           li 
@@ -241,12 +241,12 @@
               span 3
             | Los parámetros de corriente y potencia.
 
-    .row
+    .row.justify-content-center.align-items-center
       .col-md-6.mb-4.mb-md-0.d-flex
         .box-light-25.color-primario.p-5
           .titulo-sexto.color-acento-contenido
             h5 Figura 7
-            span Parámetros instantáneos
+            i Parámetros instantáneos
           figure
             img(src='@/assets/curso/tema4-imagen5.jpg', alt='Texto que describa la imagen')
             figcaption Fuente: SENA

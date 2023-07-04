@@ -96,17 +96,19 @@
               .bloque-texto-a__texto.p-4
                 p Por eso las compañías de electricidad multan a las empresas que tienen un factor de potencia bajo. Las empresas para evitar esas multas utilizan cargas capacitivas, que compensan a las cargas inductivas; se usan capacitores que aumentan el factor de potencia, tratando de llevarlo a valores cercanos a "1". También en las chapas de los motores está indicado el factor de potencia, además de la tensión de alimentación, la frecuencia, la corriente nominal, la potencia y la velocidad nominal.
         .row
-          .col-lg-8.mb-5.mb-lg-0
+          .col-lg-12.mb-5.mb-lg-0
             p.mb-0 En resumen, potencia reactiva (Q) es la potencia que necesitan las bobinas y los condensadores para generar campos magnéticos o eléctricos, que no se transforma en trabajo efectivo, sino que fluctúa por la red entre el generador y los receptores, su unidad de medida es el voltamperio reactivo (VAr). Para calcular la potencia de un equipo que trabaja con corriente alterna monofásica se tiene:
-          .col-lg-4
-            .contenedor-bordes-azules.p-4
-              p.mb-0 
-                strong Q = V*I*Sen(φ)
-                br
-                br
-                | También puede obtenerse como:
-                br
-                strong Q = X*I² = V²/X
+          .row.justify-content-center.align-items-center
+            .col-lg-4
+              .contenedor-bordes-azules.p-4
+                p.mb-0 
+                  strong Q = V*I*Sen(φ)
+                  br
+                  br
+                  | También puede obtenerse como:
+                  br
+                  br
+                  strong Q = X*I² = V²/X
     p.mb-5(data-aos="fade-in") La potencia reactiva es positiva si el receptor es inductivo y negativa si el receptor es capacitivo, coincidiendo en signo con la parte imaginaria de la impedancia.
 
     Separador
@@ -154,14 +156,13 @@
       .col-lg-8
         p.mb-0 Es un número adimensional que se obtiene al dividir la potencia activa entre la aparente. Un valor igual a la unidad indica que la tensión y la intensidad están en fase y, por tanto, no hay energía reactiva; su valor máximo es uno y cuanto más cerca esté de la unidad, más trabajo se puede producir para una determinada tensión e intensidad.
     
-    .row.justify-content-center(data-aos="fade-in")
-      .col-auto
-        .contenedor-bordes-azules.mb-5.py-4.px-5.text-center
-          figure
-            img(src="@/assets/curso/tema2-imagen3.svg")
+      .row.justify-content-center(data-aos="fade-in")
+        .col-auto
+          .contenedor-bordes-azules.mb-5.py-4.px-5.text-center
+            figure
+              img(src="@/assets/curso/tema2-imagen3.svg")
 
-    .mb-5.px-5.py-4.texto-color-offset-top-left-2
-      p(data-aos="fade-in") Cuando la impedancia de la carga no es puramente resistiva el factor de potencia es igual a 1, y hay una corriente fuera de fase en las líneas que no funciona. Esta corriente extra aumenta las pérdidas en la línea, por ello, se necesitan generadores y conductores más grandes para producirla y enviarla. Las compañías eléctricas a veces imponen un recargo por la corriente fuera de fase y los usuarios de la energía tratan de mantener el factor de potencia lo más cercano a 1, en lo posible.
+        p(data-aos="fade-in") Cuando la impedancia de la carga no es puramente resistiva el factor de potencia es igual a 1, y hay una corriente fuera de fase en las líneas que no funciona. Esta corriente extra aumenta las pérdidas en la línea, por ello, se necesitan generadores y conductores más grandes para producirla y enviarla. Las compañías eléctricas a veces imponen un recargo por la corriente fuera de fase y los usuarios de la energía tratan de mantener el factor de potencia lo más cercano a 1, en lo posible.
     
     .row.justify-content-center(data-aos="fade-in")
       .col-lg-8.mb-5.mb-lg-0

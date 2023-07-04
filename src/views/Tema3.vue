@@ -53,10 +53,10 @@
           ul.lista-ul--color
             li 
               i.fas.fa-atom
-              p.mb-0 El <strong>alambre neutro</strong> conectado a tierra siempre es <strong>blanco o gris.</strong>
+              | El <strong>alambre neutro</strong> conectado a tierra siempre es <strong>blanco o gris.</strong>
             li 
               i.fas.fa-atom
-              p.mb-0 Los alambres energizados generalmente son <strong>blancos o rojos.</strong>
+              | Los alambres energizados generalmente son <strong>blancos o rojos.</strong>
             li
               i.fas.fa-atom
               | Si se usa algún alambre para conectar a tierra es verde o sin aislar.
@@ -71,7 +71,7 @@
     figure
       img(src="@/assets/curso/tema3-imagen2.png")
 
-    p.mb-5 Los valores eficaces de las tensiones y de las corrientes de fase en un sistema equilibrado se van a denominar VF e IF, respectivamente. En el caso de un sistema trifásico de impedancias, dado que estas magnitudes son las tensiones entre sus extremos y las corrientes que circulan por ellas, se guarda la Ley de Ohm entre las tensiones y corrientes de fase. Luego, trabajando con los módulos de estas magnitudes se obtiene que en un sistema equilibrado:
+    p.mb-5.mt-4 Los valores eficaces de las tensiones y de las corrientes de fase en un sistema equilibrado se van a denominar VF e IF, respectivamente. En el caso de un sistema trifásico de impedancias, dado que estas magnitudes son las tensiones entre sus extremos y las corrientes que circulan por ellas, se guarda la Ley de Ohm entre las tensiones y corrientes de fase. Luego, trabajando con los módulos de estas magnitudes se obtiene que en un sistema equilibrado:
 
     .row.justify-content-center(data-aos="fade-in")
       .col-lg-auto

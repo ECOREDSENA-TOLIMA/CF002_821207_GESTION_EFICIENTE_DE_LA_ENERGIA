@@ -181,7 +181,7 @@
         .box-light-15.color-primario.p-5
           .titulo-sexto.color-acento-contenido
             h5 Figura 1
-            span Configuración de dos circuitos eléctricos con diferente valor de resistencia
+            span <i>Configuración de dos circuitos eléctricos con diferente valor de resistencia</i>
           figure
             img(src="@/assets/curso/tema1-imagen12.png")
             figcaption Nota. Tomado de Mantilla (1985).
@@ -250,18 +250,18 @@
                 img(src="@/assets/curso/tema1-imagen39.svg")
           p.mb-0 Estas fórmulas permiten la solución de muchos casos de índole práctico, por ejemplo:
       .col-lg-6
-        .p-5
-          p.mb-5 Una lámpara tiene los siguientes datos en su placa de características 
-            strong V = 125 V y P = 100 W
-            br
-            br
-            | ¿Cuál será el valor de la intensidad?
-          .row.mb-5
-            .col-lg-6
-              figure
-                img(src="@/assets/curso/tema1-imagen40.svg")
-          p.mb-0 La intensidad será de 
-            strong 0.84 amperios.
+        .cajon.color-acento-botones
+          .p-5
+            p.mb-5 Una lámpara tiene los siguientes datos en su placa de características 
+              strong V = 125 V y P = 100 W
+              |  ¿Cuál será el valor de la intensidad?
+            .row.mb-5
+              .col-lg-6
+                figure
+                  img(src="@/assets/curso/tema1-imagen40.svg")
+            p.mb-0 La intensidad será de 
+              strong 0.84 amperios.
+              
     Separador
 
     #t_1_4.titulo-segundo

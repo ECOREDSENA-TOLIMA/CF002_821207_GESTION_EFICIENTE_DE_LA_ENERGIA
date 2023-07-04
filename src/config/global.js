@@ -198,6 +198,11 @@ export default {
         download: 'downloads/material.zip',
       },
       {
+        icono: 'fas fa-download',
+        titulo: 'Descargar PDF',
+        download: 'downloads/CFA_02_821207.pdf',
+      },
+      {
         icono: 'far fa-registered',
         titulo: 'Créditos',
         nombreRuta: 'creditos',
@@ -361,9 +366,9 @@ export default {
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
-          cargo: 'Responsable de línea de producción',
-          centro: 'Nombre centro de formación',
+          nombre: 'Norma Constanza Morales Cruz',
+          cargo: 'Responsable de Línea de Producción',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
@@ -371,9 +376,42 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Nombre centro de formación',
+          nombre: 'Carlos Javier González Cuevas ',
+          cargo: 'Experto Técnico ',
+          centro:
+            'Regional Distrito Capital - Centro Electricidad Electrónica y Telecomunicaciones',
+        },
+        {
+          nombre: 'Marlon Augusto Villamizar Morales ',
+          cargo: 'Experto Técnico ',
+          centro: 'Global Green Growth Institute (GGGI) ',
+        },
+        {
+          nombre: 'Cristian Metaute Medina ',
+          cargo: 'Diseñador Instruccional ',
+          centro:
+            'Regional Distrito Capital  - Centro para la Industria de la Comunicación Gráfica del SENA',
+        },
+        {
+          nombre: 'Carolina Coca Salazar ',
+          cargo: 'Revisora Metodológica y Pedagógica ',
+          centro: 'Regional Distrito Capital  - Centro de Diseño y Metrología ',
+        },
+        {
+          nombre: 'José Gabriel Ortiz Abella ',
+          cargo: 'Corrector de Estilo ',
+          centro:
+            'Regional Distrito Capital -  Centro para la Industria de la Comunicación Gráfica del SENA',
+        },
+        {
+          nombre: 'Juan Gilberto Giraldo Cortés ',
+          cargo: 'Diseñador Instruccional ',
+          centro: 'Regional Tolima –  Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'María Inés Machado López ',
+          cargo: 'Metodóloga ',
+          centro: 'Regional Tolima –  Centro de Comercio y Servicios',
         },
       ],
     },
@@ -381,19 +419,34 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador web',
-          centro: 'Nombre centro de formación',
+          nombre: 'José Yobani Penagos Mora',
+          cargo: 'Diseñador Web',
+          centro: 'Regional Tolima –  Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Sebastián Trujillo Afanador',
           cargo: 'Desarrollador Fullstack',
-          centro: 'Nombre centro de formación',
+          centro: 'Regional Tolima –  Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro: 'Nombre centro de formación',
+          nombre: 'Gilberto Junior Rodríguez Rodríguez',
+          cargo: 'Storyboard e Ilustración',
+          centro: 'Regional Tolima –  Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Nelson Iván Vera Briceño',
+          cargo: 'Producción Audiovisual',
+          centro: 'Regional Tolima –  Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Oleg Litvin',
+          cargo: 'Animador ',
+          centro: 'Regional Tolima –  Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Francisco Javier Vásquez Suarez',
+          cargo: 'Actividad Didáctica',
+          centro: 'Regional Tolima –  Centro de Comercio y Servicios',
         },
       ],
     },
@@ -401,14 +454,14 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre validador',
-          cargo: 'Validación y vinculación en plataforma LMS',
-          centro: 'Nombre centro formación',
+          nombre: 'Jorge Bustos Gómez',
+          cargo: 'Validación y Vinculación en Plataforma LMS',
+          centro: 'Regional Tolima –  Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Nombre validador',
-          cargo: 'Validación de contenidos accesibles',
-          centro: 'Nombre centro formación',
+          nombre: 'Gilberto Naranjo Farfán',
+          cargo: 'Validación de Contenidos Accesibles',
+          centro: 'Regional Tolima –  Centro de Comercio y Servicios',
         },
       ],
     },
