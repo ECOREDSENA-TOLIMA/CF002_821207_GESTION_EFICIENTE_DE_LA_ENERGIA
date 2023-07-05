@@ -10,7 +10,7 @@
     figure.mb-5
     img(src="@/assets/curso/tema1-imagen1.png")
     
-    p.mb-5 Los circuitos son interconexiones de varios componentes eléctricos que permiten el flujo de la electricidad, cada uno se distingue según su configuración lográndose diferenciar entre circuitos en serie y paralelos o incluso el mixto.  A su vez, hay leyes e información que se debe conocer a la hora de entender cómo funcionan los mismos, los cuales se abordarán a continuación.
+    p.mb-5.mt-5 Los circuitos son interconexiones de varios componentes eléctricos que permiten el flujo de la electricidad, cada uno se distingue según su configuración lográndose diferenciar entre circuitos en serie y paralelos o incluso el mixto.  A su vez, hay leyes e información que se debe conocer a la hora de entender cómo funcionan los mismos, los cuales se abordarán a continuación.
 
     #t_1_1.titulo-segundo
       h2 1.1  Circuitos en serie y paralelo
