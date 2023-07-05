@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="319" height="73" viewBox="0 0 319 73">
+  <g id="Grupo_55388" data-name="Grupo 55388" transform="translate(9827 2624)">
+    <g id="Rectángulo_5296" data-name="Rectángulo 5296" transform="translate(-9827 -2624)" fill="#f1f5fb" stroke="#0f58b9" stroke-width="4">
+      <rect width="319" height="73" rx="20" stroke="none"/>
+      <rect x="2" y="2" width="315" height="69" rx="18" fill="none"/>
+    </g>
+    <g id="Grupo_55358" data-name="Grupo 55358" transform="translate(253 623)">
+      <text id="_" data-name="∑" transform="translate(-10064 -3243)" fill="#12263f" font-size="50" font-family="Roboto-Regular, Roboto"><tspan x="0" y="52">∑</tspan></text>
+      <text id="_1_2_3_..._0" data-name="𝑉𝑘 = 𝑉1 + 𝑉2 + 𝑉3 ... + 𝑉𝑛  = 0" transform="translate(-9985 -3224)" fill="#12263f" font-size="18" font-family="STIXGeneral-Regular, STIXGeneral"><tspan x="0" y="19">𝑉</tspan><tspan y="19" font-size="10.499" baseline-shift="-5.999400079342301">𝑘</tspan><tspan y="19" font-size="10.499" font-family="Roboto-Medium, Roboto" font-weight="500" baseline-shift="-5.999400079342301"> </tspan><tspan y="19" font-family="Roboto-Medium, Roboto" font-weight="500">= </tspan><tspan y="19">𝑉</tspan><tspan y="19" font-size="10.499" font-family="Roboto-Medium, Roboto" font-weight="500" baseline-shift="-5.999400079342301">1 </tspan><tspan y="19" font-family="Roboto-Medium, Roboto" font-weight="500">+ </tspan><tspan y="19">𝑉</tspan><tspan y="19" font-size="10.499" font-family="Roboto-Medium, Roboto" font-weight="500" baseline-shift="-5.999400079342301">2 </tspan><tspan y="19" font-family="Roboto-Medium, Roboto" font-weight="500">+ </tspan><tspan y="19">𝑉</tspan><tspan y="19" font-size="10.499" font-family="Roboto-Medium, Roboto" font-weight="500" baseline-shift="-5.999400079342301">3 </tspan><tspan y="19" font-family="Roboto-Medium, Roboto" font-weight="500">... + </tspan><tspan y="19">𝑉</tspan><tspan y="19" font-size="10.499" baseline-shift="-5.999400079342301">𝑛</tspan><tspan y="19" xml:space="preserve" font-size="10.499" font-family="Roboto-Medium, Roboto" font-weight="500" baseline-shift="-5.999400079342301">  </tspan><tspan y="19" font-family="Roboto-Medium, Roboto" font-weight="500">= 0</tspan></text>
+      <text id="_1" data-name="𝑘 = 1" transform="translate(-10028 -3206)" fill="#12263f" font-size="18" font-family="STIXGeneral-Regular, STIXGeneral"><tspan x="0" y="19">𝑘</tspan><tspan y="19" xml:space="preserve" font-family="Roboto-Regular, Roboto"> = 1</tspan></text>
+      <text id="_2" data-name="𝑛" transform="translate(-10028 -3243)" fill="#12263f" font-size="18" font-family="STIXGeneral-Regular, STIXGeneral"><tspan x="0" y="19">𝑛</tspan></text>
+    </g>
+  </g>
+</svg>
