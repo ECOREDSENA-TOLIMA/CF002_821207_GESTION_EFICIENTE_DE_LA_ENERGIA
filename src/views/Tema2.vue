@@ -7,9 +7,10 @@
         span 2
       h1 Potencia eléctrica
 
-    p.mb-5(data-aos="fade-in") La potencia o energía eléctrica que se mide en vatios (watts) es la velocidad con que la energía eléctrica es convertida en otra forma de energía.
-      br
-      | En un molino de agua, entre más agua fluya, mayor será la velocidad de las vueltas del molino o entre mayor sea el torque (momento de torsión) ejercido por su eje, mayor será el trabajo que realiza en un tiempo determinado.  Igualmente, entre mayor sea la potencia o energía eléctrica suministrada a un motor, medida en vatios, mayor será el trabajo que el motor realice en un determinado tiempo.
+    p.mb-4(data-aos="fade-in") La potencia o energía eléctrica que se mide en vatios (watts) es la velocidad con que la energía eléctrica es convertida en otra forma de energía.
+      
+    .cajon.color-acento-botones.px-4.py-4.mb-4(data-aos="fade-left")
+      p.mb-0 En un molino de agua, entre más agua fluya, mayor será la velocidad de las vueltas del molino o entre mayor sea el torque (momento de torsión) ejercido por su eje, mayor será el trabajo que realiza en un tiempo determinado.  Igualmente, entre mayor sea la potencia o energía eléctrica suministrada a un motor, medida en vatios, mayor será el trabajo que el motor realice en un determinado tiempo.
 
     figure.mb-5(data-aos="fade-in")
       img(src="@/assets/curso/tema1-imagen36.png")
@@ -23,14 +24,15 @@
 
     Separador
 
-    #t_2_1.titulo-segundo(data-aos="fade-in")
+    #t_2_1.titulo-segundo.color-acento-botones(data-aos="fade-in")
       h2 2.1  Potencia activa
 
     .mb-5.px-4.py-3.texto-color-offset-top-left
-      p.mb-0 Cuando se conecta un equipo o consumidor eléctrico a un circuito alimentado por una fuente de fuerza electromotriz (F.E.M) como puede ser una batería, la energía eléctrica que suministra fluye por el conductor, permitiendo que, por ejemplo, una bombilla de alumbrado transforme esa energía en luz y calor o un motor pueda mover una maquinaria, esta energía consumida se mide kWh. De acuerdo con la definición de la física, “la energía ni se crea ni se destruye, se transforma”, en el caso de la energía eléctrica, esa transformación se manifiesta en la obtención de luz, calor, frío, movimiento o en otro trabajo útil que realice cualquier dispositivo conectado a un circuito eléctrico cerrado.
-        br
-        br
-        | Cuando se tiene una carga resistiva conectada en un circuito eléctrico se le llama carga activa, y en este caso, cuando se conoce el valor de la tensión eléctrica y la corriente que circula por la resistencia. También se llama potencia media, real o verdadera, debido a los dispositivos resistivos, su unidad de medida es el vatio (W) y se calcula como:
+      .cajon-b.color-acento-botones.p-3
+        p.mb-0 Cuando se conecta un equipo o consumidor eléctrico a un circuito alimentado por una fuente de fuerza electromotriz (F.E.M) como puede ser una batería, la energía eléctrica que suministra fluye por el conductor, permitiendo que, por ejemplo, una bombilla de alumbrado transforme esa energía en luz y calor o un motor pueda mover una maquinaria, esta energía consumida se mide kWh. De acuerdo con la definición de la física, “la energía ni se crea ni se destruye, se transforma”, en el caso de la energía eléctrica, esa transformación se manifiesta en la obtención de luz, calor, frío, movimiento o en otro trabajo útil que realice cualquier dispositivo conectado a un circuito eléctrico cerrado.
+          br
+          br
+          | Cuando se tiene una carga resistiva conectada en un circuito eléctrico se le llama carga activa, y en este caso, cuando se conoce el valor de la tensión eléctrica y la corriente que circula por la resistencia. También se llama potencia media, real o verdadera, debido a los dispositivos resistivos, su unidad de medida es el vatio (W) y se calcula como:
     
     .row.justify-content-center.mb-5(data-aos="slide-up" data-aos-duration="900")
       .col-lg-7
@@ -52,9 +54,9 @@
               | Voltaje (V)
           .row.align-items-center.mb-4
             .col-auto
-              .contenedor-letras(style="padding: 0px 10px")
+              .contenedor-letras
                 | I
-            .col
+            .col(style="padding-left: 19px;")
               | Intensidad de corriente (A)
           .row.align-items-center.mb-4
             .col-auto
@@ -80,7 +82,7 @@
     
     Separador
 
-    #t_2_2.titulo-segundo(data-aos="fade-in")
+    #t_2_2.titulo-segundo.color-acento-botones(data-aos="fade-in")
       h2 2.2  Potencia reactiva
 
     p.mb-5(data-aos="fade-in") Para calcular la potencia en determinados equipos que trabajan con corriente alterna es necesario tener en cuenta el valor del factor de potencia que poseen. Es el caso de los equipos que trabajan con carga reactiva, que son consumidores de energía eléctrica que utilizan bobinas de alambre de cobre, por ejemplo, los motores. Estos equipos se llaman reactivos o inductivos, ya que tienen una inductancia en vez de una resistencia.
@@ -99,32 +101,29 @@
           .col-lg-12.mb-5.mb-lg-0
             p.mb-0 En resumen, potencia reactiva (Q) es la potencia que necesitan las bobinas y los condensadores para generar campos magnéticos o eléctricos, que no se transforma en trabajo efectivo, sino que fluctúa por la red entre el generador y los receptores, su unidad de medida es el voltamperio reactivo (VAr). Para calcular la potencia de un equipo que trabaja con corriente alterna monofásica se tiene:
           .row.justify-content-center.align-items-center
-            .col-lg-4
+            .col-lg-5.col-md-8
               .contenedor-bordes-azules.p-4
                 p.mb-0 
                   strong Q = V*I*Sen(φ)
                   br
-                  br
-                  | También puede obtenerse como:
-                  br
-                  br
-                  strong Q = X*I² = V²/X
+                | También puede obtenerse como:
+                br
+                strong Q = X*I² = V²/X
     p.mb-5(data-aos="fade-in") La potencia reactiva es positiva si el receptor es inductivo y negativa si el receptor es capacitivo, coincidiendo en signo con la parte imaginaria de la impedancia.
 
     Separador
 
-    #t_2_3.titulo-segundo(data-aos="fade-in")
+    #t_2_3.titulo-segundo.color-acento-botones(data-aos="fade-in")
       h2 2.3  Potencia aparente
 
     .row.mb-5
       .col-lg-5.mb-5.mb-lg-0.d-flex(data-aos="slide-left" data-aos-duration="900")
-        .cajon.color-acento-botones.px-5.py-4.mb-4
+        .cajon.color-acento-contenido.px-5.py-4.mb-4
           p.mb-0 Es potencia compleja de un circuito eléctrico de corriente alterna, cuya magnitud se conoce como potencia aparente y se identifica con la letra S; es la suma vectorial de la potencia que disipa dicho circuito y se transforma en calor o trabajo, conocida como potencia promedio, activa o real, que se designa con la letra P y se mide en vatios <strong>(W)</strong> y la potencia utilizada para la formación de los campos eléctrico y magnético de sus componentes, que fluctúa entre estos componentes y la fuente de energía, conocida como potencia reactiva, que se identifica con la letra Q y se mide en voltamperios reactivos (VAr). Como se muestra en la figura 2.
       .col-lg-7.d-flex(data-aos="slide-right" data-aos-duration="900")
-        .box-light-15.color-primario.p-5
+        .box-light-25.p-3
           .titulo-sexto.color-acento-contenido
-            h5 Figura 2
-            span Triángulo de potencias
+            p.titulo.pb-0.mb-0 #[b Figura 8.] #[i Triángulo de potencias]
           figure
             img(src="@/assets/curso/tema2-imagen2.svg")
 
@@ -146,7 +145,7 @@
     
     Separador
 
-    #t_2_4.titulo-segundo(data-aos="fade-in")
+    #t_2_4.titulo-segundo.color-acento-botones(data-aos="fade-in")
       h2 2.4  Factor de potencia
 
     .row.mb-5(data-aos="fade-in")
@@ -156,7 +155,7 @@
       .col-lg-8
         p.mb-0 Es un número adimensional que se obtiene al dividir la potencia activa entre la aparente. Un valor igual a la unidad indica que la tensión y la intensidad están en fase y, por tanto, no hay energía reactiva; su valor máximo es uno y cuanto más cerca esté de la unidad, más trabajo se puede producir para una determinada tensión e intensidad.
     
-      .row.justify-content-center(data-aos="fade-in")
+      .row.justify-content-center.mt-3(data-aos="fade-in")
         .col-auto
           .contenedor-bordes-azules.mb-5.py-4.px-5.text-center
             figure
@@ -224,13 +223,10 @@
             figure
               img(src="@/assets/curso/tema2-imagen8.svg")
           .col-lg-9
-            p.mb-5
+            p
               strong Controlar el consumo de energía
-              br
-              br
-              | Es muy normal que entre un mes y otro existan diferencias moderadas de consumos, ya sea porque el número de días facturados sea menor o mayor al del mes anterior, o porque no siempre se usa con la misma frecuencia los electrodomésticos en el hogar, si se encuentra que la diferencia en consumo ha sido significativa y no ha tenido cambios en el uso habitual de sus electrodomésticos, como se muestra en la siguiente figura.
+            p.mb-5 Es muy normal que entre un mes y otro existan diferencias moderadas de consumos, ya sea porque el número de días facturados sea menor o mayor al del mes anterior, o porque no siempre se usa con la misma frecuencia los electrodomésticos en el hogar, si se encuentra que la diferencia en consumo ha sido significativa y no ha tenido cambios en el uso habitual de sus electrodomésticos, como se muestra en la siguiente imagen.   
             .titulo-sexto.color-acento-contenido
-              h5 Figura 3
               span Modelo de factura de servicio de energía
             figure
               img(src="@/assets/curso/tema2-imagen9.jpeg")

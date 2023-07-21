@@ -10,8 +10,8 @@
             img(src="@/assets/template/opcion-multiple.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Definiendo cuales son los principios eléctricos
-        p.mb-4 #[b Objetivo] Establecer conceptos relacionados con los principios eléctricos, de acuerdo con la teoria vista.
+          h2 Definiendo cuáles son los principios eléctricos
+        p.mb-4 #[b Objetivo] Establecer conceptos relacionados con los principios eléctricos, de acuerdo con la teoría vista.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

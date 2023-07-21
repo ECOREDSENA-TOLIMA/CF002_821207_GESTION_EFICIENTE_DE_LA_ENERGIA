@@ -3,8 +3,8 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p Con el diagrama de actividades se termina la descripción de las tres técnicas usadas para la especificación y el análisis de requisitos, como se pudo analizar cada una de las técnicas nos brinda características para lograr representar gráficamente y de una forma clara, los requisitos que un usuario necesita poder cumplir satisfactoriamente con las solicitudes de los clientes y usuarios, por otro lado se pueden usar todas las técnicas en una especificación y análisis de requisitos si se ve la necesidad.
-    p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
+    p El sistema eléctrico está basado en unidades fundamentales y unidades complementarias. Todas las mediciones pueden ser expresadas como alguna combinación de unidades fundamentales y complementarias. La unidad eléctrica fundamental, el ampere, es la unidad utilizada para medir la corriente eléctrica. La corriente se abrevia con la letra I (por intensidad) y utiliza el símbolo A (por ampere). El ampere es único en el sentido de que utiliza en su definición a la unidad fundamental de tiempo (t) (el segundo). Todas las demás unidades eléctricas y magnéticas (tales como voltaje, potencia y flujo magnético) utilizan varias combinaciones de unidades fundamentales en sus definiciones y se llaman unidades derivadas. 
+    p.mb-5 En el siguiente mapa conceptual se establece la ruta de aprendizaje de éste interesante tema:
 
     .row.justify-content-center
       .col-lg-10.mb-5

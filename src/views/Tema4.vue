@@ -15,14 +15,13 @@
           p Los simuladores de circuitos cuentan con múltiples herramientas que permiten realizar casi cualquier circuito, se puede instalar circuitería básica como resistores, condensadores, bobinas, relés mecánicos, interruptores, fuentes de voltaje AC y DC, fuentes de corrientes AC y DC, lámparas, entre otros; también se pueden usar semiconductores como diodos, tiristores, relés de estado sólido, entre otros. Igualmente, dispone de un ser de herramientas de medición como voltímetros, amperímetros, vatímetros y osciloscopios.
             br
             br
-            | El diseño de este tipo de <strong><i>software</i></strong> lleva varios años y con ello cada vez se van mejorado sus características, haciéndolos más robustos y reales, uno de los primeros simuladores creados fue SPICE, desarrollado por Donald Pederson en la Universidad de California en Berkeley en 1975. El funcionamiento de este programa se basa en la  línea de órdenes, las cuales no son tan fáciles de utilizar al momento de diseñar todo un circuito complejo y el usuario debe tener un conocimiento correcto sobre cómo utilizar las instrucciones correctas; sin embargo, SPICE es fundamental para otros programas con mayor interactividad con el usuario, tales como Orégano o GEDA.
+            | El diseño de este tipo de <strong><i>software</i></strong> lleva varios años y con ello cada vez se van mejorando sus características, haciéndolos más robustos y reales, uno de los primeros simuladores creados fue SPICE, desarrollado por Donald Pederson en la Universidad de California en Berkeley en 1975. El funcionamiento de este programa se basa en la  línea de órdenes, las cuales no son tan fáciles de utilizar al momento de diseñar todo un circuito complejo y el usuario debe tener un conocimiento correcto sobre cómo utilizar las instrucciones correctas; sin embargo, SPICE es fundamental para otros programas con mayor interactividad con el usuario, tales como Orégano o GEDA.
             br
             br
             | En la actualidad, existen cada vez más programas dedicados al diseño asistido por computadora o CAD (<i>Computer-Aided Design</i>) para diferentes áreas de desarrollo, y la electrónica no podía quedarse atrás. Dentro de este contexto, en los últimos años han surgido gran cantidad de programas orientados a los expertos en electrónica para ayudarlos en el diseño de circuitos.
             br
             br
             | Los programas tipo CAD enfocados en la electrónica en general tienen las siguientes características: dibujo de diagramas de circuitos, simulación de circuitos electrónicos y diseño de circuitos impresos
-            br
             | (PCB). Algunos poseen solo una de estas características, pero otros pueden realizar las tres en un único paquete.
 
       .row(titulo="Ventajas")
@@ -47,7 +46,7 @@
     
     Separador
 
-    #t_4_1.titulo-segundo(data-aos="fade-in")
+    #t_4_1.titulo-segundo.color-acento-botones(data-aos="fade-in")
       h2 4.1  Biblioteca de componentes
     
     .row.justify-content-center
@@ -75,7 +74,7 @@
     
     Separador
 
-    #t_4_2.titulo-segundo(data-aos="fade-in")
+    #t_4_2.titulo-segundo.color-acento-botones(data-aos="fade-in")
       h2 4.2  Conexión de componentes
     
     p.mb-4 Después de haber aprendido cómo buscar y escoger los componentes dentro de la biblioteca es fundamental saber cómo se realizan las conexiones entre ellos dentro de un circuito. Para realizar las conexiones se debe estar en un modo donde se habiliten las herramientas de conexión, aunque en algunos simuladores es posible efectuarlas desde otros modos también. En el siguiente paso a paso se conocerá en detalle cómo es el procedimiento para conectar componentes.
@@ -113,7 +112,7 @@
               figcaption
                 i Lugar correcto de conexión de componente final.
           .col-md-6
-            p.mb-0 Haga un clic en ese lugar y desplace el cursor del mouse hacia la terminal donde se hará la conexión, en este caso, una terminal de una de las resistencias R1. Al llegar a la terminal de la resistencia, el cursor volverá a tomar la forma de un lápiz verde, y un pequeño cuadro rojo indicará que se puede hacer la conexión. Haga un clic y la conexión quedará hecha. 
+            p.mb-0 Haga un clic en ese lugar y desplace el cursor del #[i mouse] hacia la terminal donde se hará la conexión, en este caso, una terminal de una de las resistencias R1. Al llegar a la terminal de la resistencia, el cursor volverá a tomar la forma de un lápiz verde, y un pequeño cuadro rojo indicará que se puede hacer la conexión. Haga un clic y la conexión quedará hecha. 
       .box-light-15.color-blue.box-light-border-15.color-primario.rounded.px-5.py-4(titulo="PASO 4")
         h4 Paso 4
         .row
@@ -170,7 +169,7 @@
 
     Separador
 
-    #t_4_3.titulo-segundo(data-aos="fade-in")
+    #t_4_3.titulo-segundo.color-acento-botones(data-aos="fade-in")
       h2 4.3  Parametrización de componentes
 
     .mb-5.px-4.py-2.texto-color-offset-top-left-3
@@ -194,7 +193,7 @@
 
     Separador
 
-    #t_4_4.titulo-segundo(data-aos="fade-in")
+    #t_4_4.titulo-segundo.color-acento-botones(data-aos="fade-in")
       h2 4.4  Visualización de resultados
 
     .mb-5.px-4.py-2.texto-color-offset-top-left-4

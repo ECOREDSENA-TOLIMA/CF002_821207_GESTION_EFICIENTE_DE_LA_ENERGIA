@@ -13,7 +13,7 @@
       .col-lg-4.mb-5.mb-lg-0.d-flex
         .px-4.py-5(style="background-color: #E4EAF0").rounded
           .titulo-sexto.color-acento-contenido
-            span Generador trifásico
+            p.titulo.pb-0.mb-0 #[b Figura 9.] #[i Generador trifásico]
           figure.mb-5
             img(src="@/assets/curso/tema3-imagen29.svg")
             figcaption Fuente: Repositorio SENA.
@@ -22,7 +22,7 @@
       .col-lg-4.mb-5.mb-lg-0.d-flex
         .px-4.py-5(style="background-color: #F3F5F8").rounded
           .titulo-sexto.color-acento-contenido
-            span Señal trifásica 
+            p.titulo.pb-0.mb-0 #[b Figura 10.] #[i Señal trifásica]
           figure.mb-5
             img(src="@/assets/curso/tema3-imagen30.svg")
             figcaption Fuente: Repositorio SENA.
@@ -30,7 +30,7 @@
       .col-lg-4.d-flex
         .px-4.py-5(style="background-color: #E4EAF0").rounded
           .titulo-sexto.color-acento-contenido
-            span Líneas trifásicas
+            p.titulo.pb-0.mb-0 #[b Figura 11.] #[i Líneas trifásicas]
           figure.mb-5
             img(src="@/assets/curso/tema3-imagen31.svg")
             figcaption Fuente: Repositorio SENA.
@@ -119,12 +119,12 @@
                 i Tensiones y corrientes en una estrella equilibrada.
         
           .col-md-5
-            p Como se puede apreciar en la figura, cada fase de la estrella está sometida a la tensión fase-neutro y está recorrida por la corriente de línea correspondiente.
+            p Como se puede apreciar en la imagen, cada fase de la estrella está sometida a la tensión fase-neutro y está recorrida por la corriente de línea correspondiente.
 
         .row(titulo="").justify-content-center.gx-5
           .col-md-6.mb-4.mb-md-0
             p.mb-0 Estas son, pues, las magnitudes de fase en la estrella y, en consecuencia, se cumple que:
-          .col-md-5
+          .col-md-6.mb-3
             figure
               img(src='@/assets/curso/tema3-imagen24.jpg', alt='Texto que describa la imagen')
           .col-md-6.mb-4.mb-md-0
@@ -141,10 +141,10 @@
               figcaption
                 i Diagrama fasorial de una estrella equilibrada
           .col-md-6
-            p.mb-0 Si las impedancias tienen al ángulo como argumento (Z), las corrientes de fase están desfasadas el mismo ángulo con respecto a sus respectivas tensiones de fase, de lo cual se obtiene el diagrama fasorial, en esta figura se supone que es positivo (inductivo):
+            p.mb-0 Si las impedancias tienen al ángulo como argumento (Z), las corrientes de fase están desfasadas el mismo ángulo con respecto a sus respectivas tensiones de fase, de lo cual se obtiene el diagrama fasorial, en esta imagen se supone que es positivo (inductivo):
         .row(titulo="").justify-content-center.gx-5
           .col-12.mb-4
-            p.mb-0 Si se mantiene, como hasta ahora, a <strong>VST</strong> como referencia del diagrama fasorial, como sucede en la figura las corrientes de fase iguales a las corrientes de línea son:
+            p.mb-0 Si se mantiene, como hasta ahora, a <strong>VST</strong> como referencia del diagrama fasorial, como sucede en la imagen las corrientes de fase iguales a las corrientes de línea son:
           
           .col-md-8.mb-4
             figure
@@ -155,8 +155,6 @@
           .col-md-3
             figure
               img(src='@/assets/curso/tema3-imagen28.jpg', alt='Texto que describa la imagen')
-
-
 
     Separador
 
@@ -184,7 +182,7 @@
               figcaption
                 i Conexión de tres impedancias formando un triángulo equilibrado 
           .col-md-6
-            p.mb-0 Así pues, en el caso de un sistema de tres impedancias la conexión triángulo se realiza como se muestra en la figura. Ambas figuras son equivalentes y son dos formas de representar la misma conexión que, al tratarse de impedancias iguales, se trata de un triángulo equilibrado. 
+            p.mb-0 Así pues, en el caso de un sistema de tres impedancias la conexión triángulo se realiza como se muestra en la imagen. Ambas figuras son equivalentes y son dos formas de representar la misma conexión que, al tratarse de impedancias iguales, se trata de un triángulo equilibrado. 
 
         
         .row(titulo="").justify-content-center.gx-5
@@ -195,7 +193,7 @@
                 i Sistema trifásico equilibrado con los generadores conectados en estrella y las cargas en triángulo.
         
           .col-md-4
-            p En la figura se muestra una instalación trifásica donde ahora las impedancias se han conectado en triángulo, mientras que se ha mantenido la conexión estrella para los generadores.
+            p En la imagen se muestra una instalación trifásica donde ahora las impedancias se han conectado en triángulo, mientras que se ha mantenido la conexión estrella para los generadores.
 
         .row(titulo="").justify-content-center.gx-5
           .col-md-6.mb-4.mb-md-0
@@ -205,7 +203,7 @@
                 i Tensiones y corrientes de fase en un triángulo equilibrado
         
           .col-md-4
-            p En la figura se muestran las tensiones y corrientes para un triángulo de impedancias equilibrado. Se aprecia que las tensiones en bornes de las impedancias (tensiones de fase) son iguales a las tensiones fase-fase o tensiones de línea, pero las corrientes de fase, que son las que circulan por las impedancias (iRS, iST e iTR) son diferentes de las corrientes de línea (iR, iS e iT).
+            p En la imagen se muestran las tensiones y corrientes para un triángulo de impedancias equilibrado. Se aprecia que las tensiones en bornes de las impedancias (tensiones de fase) son iguales a las tensiones fase-fase o tensiones de línea, pero las corrientes de fase, que son las que circulan por las impedancias (iRS, iST e iTR) son diferentes de las corrientes de línea (iR, iS e iT).
 
         .row(titulo="").justify-content-center.gx-5
           .col-12
@@ -217,7 +215,7 @@
         
         .row(titulo="").justify-content-center.gx-5
           .col-md-6.mb-4.mb-md-0
-            p.mb-0 Si las impedancias tienen al ángulo como argumento (Z), debido a la Ley de Ohm las corrientes de fase están desfasadas el mismo ángulo con respecto a sus respectivas tensiones de fase, de lo cual se obtiene el diagrama fasorial de la figura, en esta figura se supone que el ángulo es positivo (inductivo). Luego, aplicando la Ley de Ohm a las magnitudes de fase y trabajando, como hasta ahora, con VST como referencia se obtiene que:
+            p.mb-0 Si las impedancias tienen al ángulo como argumento (Z), debido a la Ley de Ohm las corrientes de fase están desfasadas el mismo ángulo con respecto a sus respectivas tensiones de fase, de lo cual se obtiene el diagrama fasorial de la imagen, en esta imagen se supone que el ángulo es positivo (inductivo). Luego, aplicando la Ley de Ohm a las magnitudes de fase y trabajando, como hasta ahora, con VST como referencia se obtiene que:
         
           .col-md-6
               figure
@@ -247,7 +245,7 @@
         
         .row(titulo="").justify-content-center.gx-5
           .col-md-7.mb-4.mb-md-0
-            p.mb-0 De la misma figura anterior se muestran gráficamente las relaciones (IR, IS e IT). Si se ve, por ejemplo, en la fase R se aprecia que los módulos IF de iRS e iST e IL de iR verifican lo siguiente:
+            p.mb-0 De la misma imagen anterior se muestran gráficamente las relaciones (IR, IS e IT). Si se ve, por ejemplo, en la fase R se aprecia que los módulos IF de iRS e iST e IL de iR verifican lo siguiente:
             
           .col-md-5.mb-4.mb-md-0
             figure
@@ -273,7 +271,7 @@
               img(src='@/assets/curso/tema3-imagen16.svg', alt='Texto que describa la imagen')
 
           .col-md-6
-            p.mb-0 Si bien en un triángulo no se utiliza el neutro, la red a la que está conectado sí puede tener neutro, bien porque los generadores están conectados como una de las figuras anteriores y que se colocan a continuación, o porque exista otra carga equilibrada en estrella en paralelo con el triángulo. 
+            p.mb-0 Si bien en un triángulo no se utiliza el neutro, la red a la que está conectado sí puede tener neutro, bien porque los generadores están conectados como una de las imagenes anteriores y que se colocan a continuación, o porque exista otra carga equilibrada en estrella en paralelo con el triángulo. 
               br
               br
               | Se sabe entonces que las tensiones simples o fase-neutro tienen un módulo √3 menor que las tensiones de línea y están retrasadas 30° con respecto a estas.
@@ -289,7 +287,7 @@
           .col-md-8
             figure.mb-5
               img(src='@/assets/curso/tema3-imagen18.jpg', alt='Texto que describa la imagen')
-            p.mb-0 En este diagrama fasorial se observa que las tensiones de línea, que en un triángulo son también las tensiones fase y las corrientes de fase forman el ángulo. Además, las tensiones simples están retrasadas 30° con respecto a las de línea y también sucede que las corrientes de línea se retrasan 30° con respecto a las corrientes de fase. De ahí, se observa en la figura de la izquierda, que el ángulo entre una tensión fase-neutro y la corriente de línea correspondiente es también el ángulo.
+            p.mb-0 En este diagrama fasorial se observa que las tensiones de línea, que en un triángulo son también las tensiones fase y las corrientes de fase forman el ángulo. Además, las tensiones simples están retrasadas 30° con respecto a las de línea y también sucede que las corrientes de línea se retrasan 30° con respecto a las corrientes de fase. De ahí, se observa en la imagen de la izquierda, que el ángulo entre una tensión fase-neutro y la corriente de línea correspondiente es también el ángulo.
               br
               br
               | En un triángulo equilibrado el ángulo es también el desfase entre una corriente de línea y la tensión fase-neutro correspondiente, al igual que sucede en la conexión estrella equilibrada (se supone que es positivo).
@@ -312,9 +310,10 @@
             br
             | El voltaje y la frecuencia de esta corriente dependen del país o región, siendo 115 y 230 los valores más extendidos para el voltaje (siendo dominante el de 230, debido a la recarga de vehículos eléctricos) y 50 o 60 hercios para la frecuencia.
           .titulo-sexto.color-acento-contenido
-            span Corriente alterna monofásica
-          figure.mb-5
-            img(src='@/assets/curso/tema3-imagen19.jpg', alt='Texto que describa la imagen')
+            p.titulo.pb-0.mb-0 #[b Figura 12.] #[i Corriente alterna monofásica]
+          figure.mb-2
+            img(src='@/assets/curso/tema3-imagen33.svg', alt='Texto que describa la imagen')
+          p.mb-4 La corriente circula en un sentido u otro 50 veces por seg. y se denomina monofásica por que gira en un solo conductor o bobina
       .col-md-6.d-flex
         .box-light-25.color-primario.p-5
           .h3 Neutro y tierra
@@ -323,9 +322,9 @@
             br
             | El sistema monofásico usa una tensión de 230V entre fase y neutro. El neutro en realidad es un cable de potencial cero, esto es, que no tiene voltaje. Se debe recordar que el cable a tierra es un conductor, el cual está destinado a conducir la descarga a tierra de algún artefacto en mal estado o mal manejo de estos por parte del usuario.
           .titulo-sexto.color-acento-contenido
-            span Neutro y tierra
+            p.titulo.pb-0.mb-0 #[b Figura 13.] #[i Neutro y tierra]
           figure.mb-5
-            img(src='@/assets/curso/tema3-imagen20.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/tema3-imagen34.svg', alt='Texto que describa la imagen')
 
 </template>
 

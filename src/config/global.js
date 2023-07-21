@@ -21,43 +21,36 @@ export default {
       },
       {
         nombreRuta: 'tema1',
-        icono: 'far fa-file-alt',
         numero: '1',
         titulo: 'Circuitos eléctricos',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '1.1',
             titulo: 'Circuitos en serie y paralelo',
             hash: 't_1_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '1.2',
             titulo: 'Ley de Ohm',
             hash: 't_1_2',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '1.3',
             titulo: 'Ley de Watt',
             hash: 't_1_3',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '1.4',
             titulo: 'Leyes de Kirchhoff',
             hash: 't_1_4',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '1.5',
             titulo: 'Respuesta transitoria circuitos de primer orden',
             hash: 't_1_5',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '1.6',
             titulo: 'Fasores',
             hash: 't_1_6',
@@ -66,37 +59,31 @@ export default {
       },
       {
         nombreRuta: 'tema2',
-        icono: 'far fa-file-alt',
         numero: '2',
         titulo: 'Potencia eléctrica',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '2.1',
             titulo: 'Potencia activa',
             hash: 't_2_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '2.2',
             titulo: 'Potencia reactiva',
             hash: 't_2_2',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '2.3',
             titulo: 'Potencia aparente',
             hash: 't_2_3',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '2.4',
             titulo: 'Factor de potencia',
             hash: 't_2_4',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '2.5',
             titulo: 'Facturas de energía eléctrica',
             hash: 't_2_5',
@@ -105,25 +92,21 @@ export default {
       },
       {
         nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
         numero: '3',
         titulo: 'Circuitos trifásicos',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '3.1',
             titulo: 'Conexión "Y"',
             hash: 't_3_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '3.2',
             titulo: 'Conexión "Δ"',
             hash: 't_3_2',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '3.3',
             titulo: 'Equivalente monofásico',
             hash: 't_3_3',
@@ -132,31 +115,26 @@ export default {
       },
       {
         nombreRuta: 'tema4',
-        icono: 'far fa-file-alt',
         numero: '4',
         titulo: '<i>Software</i> de simulación de circuitos eléctricos',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '4.1',
             titulo: 'Biblioteca de componentes',
             hash: 't_4_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '4.2',
             titulo: 'Conexión de componentes',
             hash: 't_4_2',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '4.3',
             titulo: 'Parametrización de componentes',
             hash: 't_4_3',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '4.4',
             titulo: 'Visualización de resultados',
             hash: 't_4_4',
@@ -225,7 +203,7 @@ export default {
       link: 'https://www.youtube.com/watch?v=Ni37_i656RI',
     },
     {
-      tema: 'eléctrica',
+      tema: 'Potencia eléctrica',
       referencia:
         'Servicio Nacional de Aprendizaje - SENA. (1980). Diferencia de potencial y corriente eléctrica. SENA.',
       tipo: 'Cartilla PDF',
@@ -235,7 +213,7 @@ export default {
       tema: 'Facturas de energía eléctrica',
       referencia:
         'Empresas Públicas de Pereira. (2015). Aprende a leer tu factura de energía eléctrica. ',
-      tipo: 'Tutorial PDF',
+      tipo: 'Imagen explicativa PDF',
       link: 'https://old.eep.com.co/images/stories/noticias/facturav2.jpg',
     },
   ],
@@ -314,7 +292,7 @@ export default {
         'Es un recorrido cerrado del circuito que resulta de recorrer el esquema eléctrico en un mismo sentido, regresando al punto de partida, pero sin pasar dos veces por la misma rama.',
     },
     {
-      termino: 'Software de simulación eléctrica',
+      termino: '<i>Software</i> de simulación eléctrica',
       significado:
         'Herramienta de <i>software</i> utilizada por profesionales en el campo de la electricidad y por los estudiantes de las carreras del área eléctrica y afines.',
     },
@@ -332,6 +310,10 @@ export default {
     {
       referencia:
         'González, B.; Toledano, J. (1994). Sistemas polifásicos. Editorial Paraninfo.',
+    },
+    {
+      referencia:
+        'Hayt, Kemmerly y Durbin. (2007). Análisis de circuitos en Ingeniería. 7ª edición. McGrawHill',
     },
     {
       referencia:

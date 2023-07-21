@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <!-- Creado con Storyline 360 - http://www.articulate.com  -->
-  <!-- version: 3.76.30446.0 -->
-  <title>AD_CF002_G_E_E</title>
+  <!-- version: 3.75.30269.0 -->
+  <title>Definiendo cu&#225;les son los principios el&#233;ctricos</title>
   <meta http-equiv="x-ua-compatible" content="IE=edge"/>
   <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no,shrink-to-fit=no,minimal-ui"/>
   <meta name="apple-mobile-web-app-capable" content="yes"/>
@@ -28,7 +28,7 @@
       captureRc: false,
       browserSize: 'optimal',
       bgColor: '#000000',
-      features: 'AccessibleVideo,ConnectionMessages,DropIn1,FullScreenToggle,InsertSvgPicture,LayerPresentAsDialog,MultipleQuizTracking,PlayerSpeedControl,StreamingVideo,UpdatedThemeEditor,UseAudioElement,VideoTranscripts',
+      features: 'AccessibleVideo,BackgroundAudio,ConnectionMessages,FullScreenToggle,InsertSvgPicture,LayerPresentAsDialog,MultipleQuizTracking,PlayerSpeedControl,StreamingVideo,UpdatedThemeEditor,UseAudioElement,VideoTranscripts',
       themeName: 'classic',
       preloaderColor: '#FFFFFF',
       suppressAnalytics: false,
@@ -36,10 +36,10 @@
       publishSource: 'storyline',
       aid: 'aid|5304b41d-7af7-4125-b8d1-83eb222823e2',
       cid: '42ae78bd-21b6-450f-a08e-8e47c4681ea9',
-      playerVersion: '3.76.30446.0',
-      publishTimestamp: '2023-07-03T20:53:30.9444078Z',
+      playerVersion: '3.75.30269.0',
+      publishTimestamp: '2023-07-21T05:26:23.8371558Z',
       maxIosVideoElements: 10,
-      connectionSettings: { mode: 'disabled' },
+      connectionSettings: { },
 
       
       parseParams: function(qs) {
@@ -131,7 +131,7 @@
   </script>
 
   <div class="mobile-load-title-overlay" style="display: none">
-    <div class="mobile-load-title">AD_CF002_G_E_E</div>
+    <div class="mobile-load-title">Definiendo cu&#225;les son los principios el&#233;ctricos</div>
   </div>
 
   <div class="mobile-chrome-warning"></div>
@@ -239,20 +239,22 @@
       retryDelay: 500
     };
 
-    var connectionSettings = window.globals.connectionSettings || {};
+    // @TODO this is POC code and can be cleaned up a bit more if we move forward
+    // with the feature
+
+
 
     // The `window.globals.features` variable must be set in `webpack.dev.config` when testing locally - it is not enough
     // to have it in the data - but it must be set there as well.
     var useConnectionMessages = window.AbortController != null &&
       window.location.protocol != 'file:' &&
-      window.globals.features.indexOf('ConnectionMessages') != -1 &&
-      connectionSettings.mode === 'normal';
+      window.globals.features.indexOf('ConnectionMessages') != -1;
 
     window.DS.connection.useConnectionMessages = useConnectionMessages
 
     var assetCount = 0;
     var checkLoadedId;
-
+    var connectionSettings = window.globals.connectionSettings;
 
     if (useConnectionMessages && connectionSettings != null) {
       var contentEl = document.querySelector('.warn-connection-content');

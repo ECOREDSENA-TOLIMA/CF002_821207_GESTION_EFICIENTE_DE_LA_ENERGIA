@@ -12,24 +12,24 @@
     
     p.mb-5.mt-5 Los circuitos son interconexiones de varios componentes eléctricos que permiten el flujo de la electricidad, cada uno se distingue según su configuración lográndose diferenciar entre circuitos en serie y paralelos o incluso el mixto.  A su vez, hay leyes e información que se debe conocer a la hora de entender cómo funcionan los mismos, los cuales se abordarán a continuación.
 
-    #t_1_1.titulo-segundo
+    #t_1_1.titulo-segundo.color-acento-botones
       h2 1.1  Circuitos en serie y paralelo
 
     p.mb-5 Como se observó un circuito eléctrico es la interconexión de dos o más componentes eléctricos; dichos componentes son básicamente los conductores por los cuales fluye la corriente, <strong>la fuente o generador y el receptor</strong> o elemento que actúa como resistencia. 
     
     .row.justify-content-center.mb-5
-      .col-12.col-lg-10.mb-5.mb-lg-0
+      .col-12.col-lg-11.mb-lg-0
         .row
           .col-12.col-lg-6.mb-5.mb-lg-0.d-flex(data-aos="slide-left" data-aos-delay="800")
-            div.box-light-25.color-primario.w-100.p-5
+            div.box-light-25.color-primario.w-100.p-4
               .titulo-sexto.color-acento-contenido
-                span Circuito eléctrico simple
+                p.titulo.pb-0.mb-0 #[b Figura 1.] <i>Circuito eléctrico simple</i>
               figure
                 img(src='@/assets/curso/tema1-imagen2.svg')
-          .col-12.col-lg-6.d-flex(data-aos="slide-right" data-aos-delay="800")
-            div.box-light-25.color-primario.w-100.p-5
+          .col-12.col-lg-6.mb-lg-0.mb-5.d-flex(data-aos="slide-right" data-aos-delay="800")
+            div.box-light-25.color-primario.w-100.p-4
               .titulo-sexto.color-acento-contenido
-                span Circuito eléctrico simple
+                p.titulo.pb-0.mb-0 #[b Figura 2.] <i>Diagrama de un circuito eléctrico simple</i>
               figure
                 img(src='@/assets/curso/tema1-imagen3.svg')
 
@@ -39,25 +39,24 @@
       | Mientras esta trayectoria no esté interrumpida se trata de un circuito cerrado y la corriente fluye. Si se interrumpe el camino en cualquier punto no hay flujo de corriente eléctrica y se trata de un circuito abierto. En este caso la corriente eléctrica es igual a cero, esto es lo que sucede cuando se abre un interruptor <i>"switch"</i> o cuando se quema una de las cargas, todas las cargas dejarán de trabajar, pues no hay manera de que la corriente complete el circuito de regreso a la fuente.
     
     .row.justify-content-center.mb-5
-      .col-12.col-lg-10.mb-5.mb-lg-0
-        .row
+      .col-12.col-lg-11.mb-5.mb-lg-0
+        .row.box-light-25
+          .col-12.pt-3
+            .titulo-sexto.color-acento-contenido
+              p.titulo.pb-0.mb-0 #[b Figura 3.] #[i Circuito eléctrico cerrado - abierto]
           .col-12.col-lg-6.mb-5.mb-lg-0.d-flex(data-aos="slide-left" data-aos-delay="600")
-            div.box-light-25.color-primario.w-100.p-5
-              .titulo-sexto.color-acento-contenido
-                span Circuito cerrado
+            div.box-light-25.color-primario.w-100.p-4
               figure
                 img(src='@/assets/curso/tema1-imagen4.svg')
           .col-12.col-lg-6.d-flex(data-aos="slide-right" data-aos-delay="600")
-            div.box-light-25.color-primario.w-100.p-5
-              .titulo-sexto.color-acento-contenido
-                span Circuito abierto
+            div.box-light-25.color-primario.w-100.p-4
               figure
                 img(src='@/assets/curso/tema1-imagen5.svg')
 
     p.mb-5 Ahora, en un circuito eléctrico la resistencia también es conocida como carga eléctrica, la cual representa cualquier dispositivo eléctrico que se conecte a una fuente de voltaje. Por lo tanto, en un circuito puede haber más de una carga o resistencia y estas se pueden conectar de dos maneras: en serie y en paralelo. A continuación, se explican estos dos tipos de conexiones.
 
     TabsC.color-acento-contenido.mb-5(data-aos="fade-in" data-aos-delay="300")
-      .p-4.p-md-5(titulo="Circuitos en serie")
+      .p-4.p-md-4(titulo="Circuitos en serie")
         p.mb-5 En un circuito en serie los aparatos receptores (cargas o resistencias) están conectados uno tras otro, de tal manera que existe solamente una trayectoria para los electrones. Esto hace que la misma corriente fluya a través de todas las resistencias; sin embargo, el voltaje se dividirá entre ellas. Así pues, al sumar los voltajes de todas las cargas, el resultado debe equivaler al voltaje de la fuente.
           br
           br
@@ -66,7 +65,7 @@
           .col-lg-9
             figure
               img(src='@/assets/curso/tema1-imagen37.svg')
-      .p-4.p-md-5(titulo="Circuitos en paralelo")
+      .p-4.p-md-4(titulo="Circuitos en paralelo")
         p.mb-5 Cuando dos o más aparatos se conectan a una fuente de energía de tal manera que la corriente total se divide, circulando los electrones a través de cada aparato en una trayectoria separada, se dice que los aparatos (cargas o resistencias) están conectados en paralelo. Se caracteriza porque los extremos de las resistencias van unidos a un mismo punto y el voltaje es el mismo en todas ellas. Así pues, la suma de la corriente de cada resistencia es igual a la corriente que entrega la fuente. 
           br
           br
@@ -78,7 +77,7 @@
 
     Separador
 
-    #t_1_2.titulo-segundo
+    #t_1_2.titulo-segundo.color-acento-botones
       h2 1.2  Ley de Ohm
 
     p.mb-5 La Ley de Ohm muestra la relación entre la tensión (o voltaje), la corriente y la resistencia en un circuito eléctrico. (Mantilla Q., 1983, p. 21). Esta relación fue enunciada por el físico alemán Georg Simon Ohm (García Á., 2005), y establece que:
@@ -112,19 +111,19 @@
     p.mb-5 A continuación, se verán dos puntos importantes al hablar de la Ley de Ohm, su aplicación a los circuitos de serie y a los circuitos en paralelo:
     
     TabsC.color-acento-contenido.mb-5
-      .p-4.p-md-5(titulo="Ley de Ohm en los circuitos en serie")
+      .p-4.p-md-4(titulo="Ley de Ohm en los circuitos en serie")
         p.mb-5 De acuerdo con la Ley de Ohm el voltaje en una resistencia es igual al producto de la corriente por la resistencia (V=IR). La corriente del circuito depende del voltaje de la fuente y de la resistencia. En este caso, por tratarse de una conexión en serie de varias resistencias, con corriente constante, el voltaje en cada una de ellas depende del valor de su resistencia. Así pues, cuando hay varias resistencias en serie, el voltaje de la fuente se divide entre ellas. Entre mayor sea la resistencia mayor es el voltaje que le toca; se cumple que:
 
         .row.mb-5
           .col-md-6.mb-4.mb-md-0
-            .cajon.color-acento-botones.p-5
+            .cajon.color-acento-contenido.p-4
               p.mb-0 La suma de los voltajes individuales es igual al voltaje total aplicado a la línea.
         
           .col-md-6
-            .cajon.color-acento-botones.p-5
+            .cajon.color-acento-contenido.p-4
               p.mb-0 La resistencia total del circuito en serie es la suma de las resistencias de todas las cargas.
         
-        p.mb-5 En la siguiente figura se tienen tres cargas de 100 Ω, 300 Ω y 200 Ω que han sido conectadas en serie:
+        p.mb-5 En la siguiente imagen se tienen tres cargas de 100 Ω, 300 Ω y 200 Ω que han sido conectadas en serie:
 
         .row.mb-5.justify-content-center
           .col-lg-8
@@ -133,26 +132,26 @@
 
         p.mb-5 La caída de voltaje a través de estas tres resistencias es 1.5 V + 4.5 V + 3 V = 9 V que equivale al voltaje de la fuente.
 
-      .p-4.p-md-5(titulo="Ley de Ohm en los circuitos paralelos")
+      .p-4.p-md-4(titulo="Ley de Ohm en los circuitos paralelos")
         p.mb-5 De acuerdo con la ley de Ohm el voltaje es igual al valor de la corriente multiplicada por la resistencia (V=IR). La corriente en cada una de las resistencias es inversamente proporcional al valor de su resistencia. En este caso, hay varias resistencias en paralelo y el voltaje en ellas es el mismo, la corriente de la fuente se divide entre ellas y la suma de las corrientes individuales es igual a la que viene de la fuente.
 
         .row.mb-5
           .col-md-6.mb-4.mb-md-0
-            .cajon.color-acento-botones.p-5
+            .cajon.color-acento-contenido.p-4
               p.mb-0 A menor resistencia mayor corriente y a mayor resistencia menor corriente.
         
           .col-md-6
-            .cajon.color-acento-botones.p-5
+            .cajon.color-acento-contenido.p-4
               p.mb-0 La corriente total en un circuito en paralelo es la suma de las corrientes individuales.
         
-        p.mb-5 En la siguiente figura, la corriente total del circuito será entonces de 9 A + 4.5 A + 3 A = 16.5 A
+        p.mb-4 En la siguiente imagen, la corriente total del circuito será entonces de 9 A + 4.5 A + 3 A = 16.5 A
 
-        .row.mb-5.justify-content-center
+        .row.mb-4.justify-content-center
           .col-lg-8
             figure
               img(src="@/assets/curso/tema1-imagen10.svg")
     
-    #t_1_3.titulo-segundo
+    #t_1_3.titulo-segundo.color-acento-botones
       h2 1.3  Ley de Watt
 
     p.mb-5 James Watt realizó los trabajos que llevaron el establecimiento de los conceptos de potencia (Mantilla Q., 1985, p. 20), la cual indica que:
@@ -177,16 +176,15 @@
     p.mb-5 Pues bien, suponga que tiene dos circuitos, cada uno con una resistencia R de diferente valor, conectada con un amperímetro o una fuente de tensión de 125 V, como se muestra en la siguiente figura.
 
     .row.mb-5
-      .col-lg-6.mb-5.mb-lg-0
-        .box-light-15.color-primario.p-5
+      .col-md-6.mb-5.mb-md-0
+        .box-light-25.color-primario.p-5
           .titulo-sexto.color-acento-contenido
-            h5 Figura 1
-            span <i>Configuración de dos circuitos eléctricos con diferente valor de resistencia</i>
+            p.titulo.pb-0.mb-0 #[b Figura 4.] <i>Configuración de dos circuitos eléctricos con diferente valor de resistencia</i>
           figure
             img(src="@/assets/curso/tema1-imagen12.png")
             figcaption Nota. Tomado de Mantilla (1985).
-      .col-lg-6
-        p.mb-0 En estas condiciones, el amperímetro del primer circuito marca 6A, es decir, a través de la resistencia R1 ha pasado en un segundo una carga de 6 culombios. Se puede decir que en el primer circuito se ha realizado un trabajo de 6 culombios en un tiempo (t) de 1 segundo. Por otra parte, en el segundo circuito el amperímetro marca 12 A, es decir, en este circuito el trabajo es de 12 culombios en un tiempo (t) de 1 segundo.
+      .col-md-6
+        p.mb-0 En estas condiciones, el amperímetro del primer circuito marca 6 A, es decir, a través de la resistencia R1 ha pasado en un segundo una carga de 6 culombios. Se puede decir que en el primer circuito se ha realizado un trabajo de 6 culombios en un tiempo (t) de 1 segundo. Por otra parte, en el segundo circuito el amperímetro marca 12 A, es decir, en este circuito el trabajo es de 12 culombios en un tiempo (t) de 1 segundo.
           br
           br
           | Observe que en un mismo tiempo (t), de 1 segundo, en la resistencia del segundo circuito se ha realizado el doble del trabajo que se realiza en la resistencia del primer circuito. De manera que se puede decir que el segundo circuito es el de mayor potencia.
@@ -220,7 +218,7 @@
           br
           strong P = 100 V x 12 A = 1200 W
 
-      .col-md.tarjeta.color-acento-botones.p-5
+      .col-md.tarjeta.color-acento-contenido.p-5
         h1.mb-5.text-center Ejemplo 2
         p.mb-5 Al suponer que se tiene un circuito en el que una tensión de 120 voltios impulsa una corriente de 1 A, ¿cuál es el valor de la potencia producida?
           br
@@ -236,14 +234,14 @@
           br
           | Aplicando la Ley de Watt se obtiene:
         p.mb-0 
-          strong P = V x I = (120V) x (1A) = 120 W
+          strong P = V x I = (120 V) x (1 A) = 120 W
           br
           | El valor de la potencia será de 120 vatios.
 
     .row
       .col-lg-6.mb-5.mb-lg-0
         .cajon.color-acento-botones.p-5
-          p.mb-5 De la fórmula V x I se puede deducir otras dos:
+          p.mb-4 De la fórmula V x I se puede deducir otras dos:
           .row.justify-content-center.mb-5
             .col-lg-6
               figure
@@ -252,10 +250,10 @@
       .col-lg-6
         .cajon.color-acento-botones
           .p-5
-            p.mb-5 Una lámpara tiene los siguientes datos en su placa de características 
+            p Una lámpara tiene los siguientes datos en su placa de características 
               strong V = 125 V y P = 100 W
-              |  ¿Cuál será el valor de la intensidad?
-            .row.mb-5
+            p.mb-4  ¿Cuál será el valor de la intensidad?
+            .row.mb-4
               .col-lg-6
                 figure
                   img(src="@/assets/curso/tema1-imagen40.svg")
@@ -264,7 +262,7 @@
               
     Separador
 
-    #t_1_4.titulo-segundo
+    #t_1_4.titulo-segundo.color-acento-botones
       h2 1.4  Leyes de Kirchhoff
 
     p.mb-5 Para analizar circuitos eléctricos no basta con aplicar la Ley de Ohm, es necesario utilizar otras herramientas para resolverlos completamente, como son las Leyes de Kirchhoff. Estas leyes permiten obtener los valores de intensidad de corriente en ramas de un circuito y potencial eléctricos en cada punto del circuito (McAllister, 2020). Reciben su nombre en honor al físico alemán Gustav Kirchhoff y son fundamentales para analizar y resolver circuitos eléctricos.
@@ -419,7 +417,7 @@
 
       .box-light-15.color-blue.box-light-border-15.color-primario.rounded.px-5.py-4(titulo="Ley de tensiones")
         p.mb-4
-          strong Ley de la tensiones
+          strong Ley de tensiones
           br
           br
           | Esta ley es llamada también segunda Ley de Kirchhoff o ley de mallas de Kirchhoff. Dicta que:
@@ -448,7 +446,7 @@
     
     Separador
 
-    #t_1_5.titulo-segundo
+    #t_1_5.titulo-segundo.color-acento-botones
       h2 1.5  Respuesta transitoria circuitos de primer orden
 
     .row.mb-5
@@ -466,7 +464,7 @@
     
     .row.justify-content-center.mb-5
       .col-lg-10
-        .box-light-15.color-primario.p-5
+        .box-light-25.color-primario.p-4
           .titulo-sexto.color-acento-contenido
             span Circuitos de primer orden
           .row
@@ -481,9 +479,9 @@
 
     .row.justify-content-center.mb-5
       .col-lg-8
-        .box-light-15.color-primario.p-5
+        .box-light-25.color-primario.p-4
           .titulo-sexto.color-acento-contenido
-            span Significado físico de τ
+            p.titulo.pb-0.mb-0 #[b Figura 5.] <i>Significado físico de τ</i>
           figure
             img(src="@/assets/curso/tema1-imagen29.svg")
 
@@ -491,15 +489,15 @@
 
     .row.justify-content-center.mb-5
       .col-lg-8
-        .box-light-15.color-primario.p-5
+        .box-light-25.color-primario.p-5
           .titulo-sexto.color-acento-contenido
-            span Valor del voltaje o corriente para valores de tiempo múltiplos de τ 
+            p.titulo.pb-0.mb-0 #[b Figura 6.] <i>Valor del voltaje o corriente para valores de tiempo múltiplos de τ </i>
           figure
             img(src="@/assets/curso/tema1-imagen30.svg")
     p.mb-5 Como puede observarse en 3 constantes de tiempo la respuesta ya ha disminuido al 5% de su valor inicial y para 5 constantes de tiempo cae al 0.67% de su valor inicial. Por esta razón, se considera en la práctica que después de transcurridas 5 constantes de tiempo la respuesta transitoria ha desaparecido.
 
 
-    #t_1_6.titulo-segundo
+    #t_1_6.titulo-segundo.color-acento-botones
       h2 1.6  Fasores
 
     .row.mb-5
@@ -507,7 +505,7 @@
         figure.mb-4
           img(src="@/assets/curso/tema1-imagen31.svg")
       .col-lg-7.d-flex
-        .cajon.color-acento-botones.px-5.py-4.mb-4
+        .cajon.color-acento-contenido.px-4.py-4.mb-4
           p.mb-0 Antes de presentar el concepto fasores se debe primero recordar que un vector es una representación gráfica y matemática de una variable física; se compone de una magnitud y una dirección expresada, por lo general, de forma cuantitativa con un ángulo. Para los circuitos eléctricos de corriente alterna, el voltaje y la corriente poseen características similares; para el voltaje y la corriente, en corriente continua por la naturaleza de las ondas al no presentarse oscilaciones, el ángulo de ellas es igual a cero. 
             br
             br
@@ -517,6 +515,9 @@
     .row.mb-5.justify-content-center
       .col-lg-9
         .row
+          .col-12
+            .titulo-sexto.color-acento-contenido
+              p.titulo.pb-0.mb-0 #[b Figura 7.] <i>Diferencia del ángulo entre el voltaje y la corriente para diferentes tipos de carga</i>
           .col-lg-4.mb-5.mb-lg-0
             figure
               img(src="@/assets/curso/tema1-imagen33.svg")

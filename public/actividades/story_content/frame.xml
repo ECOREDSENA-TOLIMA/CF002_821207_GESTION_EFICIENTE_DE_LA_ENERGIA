@@ -13,7 +13,7 @@
         <options>
           <option name="title_enabled" value="false">
             <options>
-              <option name="title_text" value="AD_CF002_G_E_E" />
+              <option name="title_text" value="Definiendo cu&amp;#225;les son los principios el&amp;#233;ctricos" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
@@ -75,6 +75,7 @@
           </option>
           <option name="settings" value="false" />
           <option name="fullScreenToggle" value="false" />
+          <option name="playbackSpeedControl" value="false" />
         </options>
       </optiongroup>
       <optiongroup name="bottombaroptions">
@@ -1337,7 +1338,7 @@
             <slidelink slideid="_player.6g8RcXIVtvA.6FwiCP1ulFm" displaytext="Los materiales donde no hay corriente cuando se aplica voltaje se llaman  " expand="false" type="slide" />
             <slidelink slideid="_player.6g8RcXIVtvA.5nDdvL1HarI" displaytext="Diferencia de potencial es otro término para " expand="false" type="slide" />
             <slidelink slideid="_player.6g8RcXIVtvA.6XjHJGNay2u" displaytext="¿Cuál de los siguientes artefactos no es un tipo de fuente de energía? " expand="false" type="slide" />
-            <slidelink slideid="_player.6g8RcXIVtvA.6W4lYqx559d" displaytext="La corriente eléctrica se define com" expand="false" type="slide" />
+            <slidelink slideid="_player.6g8RcXIVtvA.6W4lYqx559d" displaytext="La corriente eléctrica se define como" expand="false" type="slide" />
             <slidelink slideid="_player.6g8RcXIVtvA.6LoRmyLHkn3" displaytext="No hay corriente en un circuito cuando  " expand="false" type="slide" />
             <slidelink slideid="_player.6g8RcXIVtvA.6hsQpaRJEMX" displaytext="El propósito primordial de un resistor es" expand="false" type="slide" />
             <slidelink slideid="_player.6g8RcXIVtvA.6RsxGj8vQLK" displaytext="Potenciómetros y reóstatos son tipos de " expand="false" type="slide" />
