@@ -27,7 +27,7 @@
       .row(titulo="Ventajas")
         .col-md-3.mb-5.mb-md-0.px-md-5
           figure
-            img(src='@/assets/curso/tema4-imagen1.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/tema4-imagen1.svg', alt='')
         .col-md-9
           p.mb-0 Utilizar un simulador de circuitos le permite al ingeniero eléctrico o de carrera afín hacer pruebas sin correr el riesgo de dañar algún circuito, si eso llegase a ocurrir, implicaría mayor gasto de material.
             br
@@ -40,7 +40,7 @@
       .row(titulo="Desventajas")
         .col-md-3.mb-5.mb-md-0.px-md-5
           figure
-            img(src='@/assets/curso/tema4-imagen2.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/tema4-imagen2.svg', alt='')
         .col-md-8
           p.mb-0 Algunos simuladores de circuitos no están lo suficientemente actualizados, y no cuentan con todos los <i>chips</i> del mercado, y eso sería un contratiempo para el diseñador, ya que deberá darse a la tarea de fabricar su propio semiconductor. Cuando no se sabe cómo manejar el programa de simulación, genera retrasos en los diseños, se debe estudiar de manera completa todos los componentes y opciones que tiene el programa, para poder realizar el trabajo de manera correcta.
     
@@ -66,10 +66,9 @@
       .col-md-6.d-flex
         .box-light-25.color-primario.p-5
           .titulo-sexto.color-acento-contenido
-            h5 Figura 4
-            span Biblioteca de componentes
+            p.titulo.pb-0.mb-0 #[b Figura 14.] #[i Biblioteca de componentes]
           figure
-            img(src='@/assets/curso/tema4-imagen3.jpeg', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/tema4-imagen3.jpeg', alt='')
             figcaption Fuente: SENA
     
     Separador
@@ -88,7 +87,7 @@
         .row
           .col-md-6.mb-5.mb-md-0
             figure
-              img(src='@/assets/curso/tema4-imagen7.jpeg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/paso1.svg', alt='')
               figcaption
                 i Componentes escogidos ya ubicados en el área de trabajo.
           .col-md-6
@@ -98,7 +97,7 @@
         .row
           .col-md-6.mb-5.mb-md-0
             figure
-              img(src='@/assets/curso/tema4-imagen8.jpeg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/paso2.svg', alt='')
               figcaption
                 i Lugar correcto de conexión de componente inicial.
           .col-md-6
@@ -108,7 +107,7 @@
         .row
           .col-md-6.mb-5.mb-md-0
             figure
-              img(src='@/assets/curso/tema4-imagen9.jpeg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/paso3.svg', alt='')
               figcaption
                 i Lugar correcto de conexión de componente final.
           .col-md-6
@@ -118,7 +117,7 @@
         .row
           .col-md-6.mb-5.mb-md-0
             figure
-              img(src='@/assets/curso/tema4-imagen10.jpeg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/paso4.svg', alt='')
               figcaption
                 i Lugar correcto de conexión de R1 y C1.
           .col-md-6
@@ -128,7 +127,7 @@
         .row
           .col-md-6.mb-5.mb-md-0
             figure
-              img(src='@/assets/curso/tema4-imagen11.jpeg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/paso5.svg', alt='')
               figcaption
                 i Conexión de R1 y C1.
           .col-md-6
@@ -138,7 +137,7 @@
         .row
           .col-md-6.mb-5.mb-md-0
             figure
-              img(src='@/assets/curso/tema4-imagen12.jpeg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/paso6.svg', alt='')
               figcaption
                 i Conexión de R1 y C1.
           .col-md-6
@@ -148,7 +147,7 @@
         .row
           .col-md-6.mb-5.mb-md-0
             figure
-              img(src='@/assets/curso/tema4-imagen13.jpeg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/paso7.svg', alt='')
               figcaption
                 i Fin de Conexión de componentes. 
           .col-md-6
@@ -183,14 +182,12 @@
         .box-light-25.color-acento-botones.p-5
           p.mb-0 Ahora que se sabe cómo editar las propiedades de los componentes se presenta un ejemplo de un oscilador. Al dibujar el oscilador por primera vez se dejan los valores por defecto del resistor y del capacitor R = 10 kohm y C = 1 nF. Con estos valores, el oscilador generará una señal de aproximadamente 120 kHz, lo cual es muy alto y no se puede apreciar en detalle, entonces, para lograr una mejor visualización se cambiarán los valores a R = 15 kohm y C = 47uF; con esto el oscilador tendrá una frecuencia aproximada de 1 Hz y se podrá ver su funcionamiento con más claridad al correr la simulación. De manera que se puede realizar este circuito como práctica y analizar los resultados, como se muestra a continuación:
       .col-md-6.d-flex
-        .box-light-25.color-primario.p-5
+        .box-light-25.color-primario.p-4
           .titulo-sexto.color-acento-contenido
-            h5 Figura 5
-            span Parametrización de componentes
+            p.titulo.pb-0.mb-0 #[b Figura 15.] #[i Parametrización de componentes]
           figure
-            img(src='@/assets/curso/tema4-imagen4.jpeg', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/tema4-imagen4.svg', alt='')
             figcaption Fuente: SENA
-
     Separador
 
     #t_4_4.titulo-segundo.color-acento-botones(data-aos="fade-in")
@@ -214,10 +211,9 @@
       .col-md-6.d-flex
         .box-light-25.color-primario.p-5
           .titulo-sexto.color-acento-contenido
-            h5 Figura 6
-            span Animación de la simulación
-          figure
-            img(src='@/assets/curso/tema4-imagen5.jpg', alt='Texto que describa la imagen')
+            p.titulo.pb-0.mb-0 #[b Figura 16.] #[i Animación de la simulación]
+          figure 
+            img(src='@/assets/curso/tema4-imagen5.svg', alt='')
             figcaption Fuente: SENA
 
     h3.titulo-tercero Visualización de parámetros instantáneos
@@ -244,17 +240,16 @@
       .col-md-6.mb-4.mb-md-0.d-flex
         .box-light-25.color-primario.p-5
           .titulo-sexto.color-acento-contenido
-            h5 Figura 7
-            i Parámetros instantáneos
+            p.titulo.pb-0.mb-0 #[b Figura 17.] #[i Parámetros instantáneos]
           figure
-            img(src='@/assets/curso/tema4-imagen5.jpg', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/tema4-imagen6.svg', alt='')
             figcaption Fuente: SENA
       .col-md-6.d-flex
         .box-light-25.color-acento-botones.p-5
           p.mb-0 Estos valores se toman directamente, es decir, se miden justo en el momento de la pausa, por ejemplo, a los 4 segundos. Otros elementos presentan diferentes parámetros según el componente de que se trate. 
             br
             br
-            | Finalmente, en algunos componentes, sobre todo en los que tienen actuadores, no se puede acceder a esta función con un clic, ya que es como si se presionara los actuadores. En estos casos, se hace un clic con el botón derecho del <i>mouse</i>, y en el menú contextual se selecciona la opción que visualice esa información, como se muestra en la figura 7.
+            | Finalmente, en algunos componentes, sobre todo en los que tienen actuadores, no se puede acceder a esta función con un clic, ya que es como si se presionara los actuadores. En estos casos, se hace un clic con el botón derecho del <i>mouse</i>, y en el menú contextual se selecciona la opción que visualice esa información, como se muestra en la figura 17.
 
 </template>
 
