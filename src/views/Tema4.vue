@@ -68,7 +68,7 @@
           .titulo-sexto.color-acento-contenido
             p.titulo.pb-0.mb-0 #[b Figura 14.] #[i Biblioteca de componentes]
           figure
-            img(src='@/assets/curso/tema4-imagen3.jpeg', alt='')
+            img(src='@/assets/curso/tema4-imagen3.png', alt='')
             figcaption Fuente: SENA
     
     Separador
