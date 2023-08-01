@@ -175,7 +175,7 @@
     
     Separador
 
-    #t_2_5.titulo-segundo(data-aos="fade-in")
+    #t_2_5.titulo-segundo.color-acento-botones(data-aos="fade-in")
       h2 2.5  Facturas de energía eléctrica
 
     p.mb-5(data-aos="fade-in") En la parte frontal de la factura se puede encontrar los valores totales a pagar por servicio de energía, impuesto de alumbrado público, aseo y otras empresas; la suma de cada uno de estos valores se denomina valor por pagar. Es importante tener en cuenta que ese valor total a pagar no corresponde solamente al servicio de energía.
@@ -186,7 +186,7 @@
     TabsA.color-acento-botones.mb-5(data-aos="fade-in")
       .box-light-15.color-blue.box-light-border-15.color-primario.rounded.px-5.py-4(titulo="Impuesto de alumbrado público")
         .row.align-items-center
-          .col-lg-3.mb-5.mb-lg-0
+          .col-lg-3.col-10.mb-lg-0
             figure
               img(src="@/assets/curso/tema2-imagen6.svg")
           .col-lg-9
@@ -197,7 +197,7 @@
               | Es un impuesto cuyo recaudo se traslada al municipio donde se está brindando el servicio, la forma como se cobra y la tarifa monetaria es creada por el concejo municipal bajo acuerdos.
       .box-light-15.color-blue.box-light-border-15.color-primario.rounded.px-5.py-4(titulo="Servicio de aseo")
         .row.align-items-center
-          .col-lg-3.mb-5.mb-lg-0
+          .col-lg-3.col-10.mb-lg-0
             figure
               img(src="@/assets/curso/tema2-imagen5.svg")
           .col-lg-9
@@ -208,7 +208,7 @@
               | Es un concepto que cobra la empresa designada para este contrato, correspondiente al servicio de barrido y recolección de basura de la ciudad.
       .box-light-15.color-blue.box-light-border-15.color-primario.rounded.px-5.py-4(titulo="Otros conceptos")
         .row.align-items-center
-          .col-lg-3.mb-5.mb-lg-0
+          .col-lg-3.col-10.mb-lg-0
             figure
               img(src="@/assets/curso/tema2-imagen7.svg")
           .col-lg-9
@@ -218,8 +218,8 @@
               br
               | Pertenece a valores cobrados por empresas o son entidades con las cuales el usuario ha adquirido créditos y financiaciones de cobro de servicios retrasados, este recaudo es trasladado a cada entidad.
       .box-light-15.color-blue.box-light-border-15.color-primario.rounded.px-5.py-4(titulo="Controlar el consumo de energía")
-        .row
-          .col-lg-3.mb-5.mb-lg-0
+        .row.align-items-center
+          .col-lg-3.col-10.mb-lg-0
             figure
               img(src="@/assets/curso/tema2-imagen8.svg")
           .col-lg-9

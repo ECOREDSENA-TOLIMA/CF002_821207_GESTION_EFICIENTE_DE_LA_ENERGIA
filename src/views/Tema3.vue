@@ -86,7 +86,7 @@
     
     Separador
 
-    #t_3_1.titulo-segundo(data-aos="fade-in")
+    #t_3_1.titulo-segundo.color-acento-botones(data-aos="fade-in")
       h2 3.1  Conexión "Y"
 
     p.mb-5 Para poder comprender una conexión “Y” se debe comprender lo indicado a continuación:
@@ -158,7 +158,7 @@
 
     Separador
 
-    #t_3_2.titulo-segundo(data-aos="fade-in")
+    #t_3_2.titulo-segundo.color-acento-botones(data-aos="fade-in")
       h2 3.2  Conexión "Δ"
 
     p.mb-4 Para poder comprender una conexión “Δ” se debe comprender lo indicado a continuación: 
@@ -296,7 +296,7 @@
 
     Separador 
 
-    #t_3_3.titulo-segundo(data-aos="fade-in")
+    #t_3_3.titulo-segundo.color-acento-botones(data-aos="fade-in")
       h2 3.3  Equivalente monofásico
       
     p.mb-5 En ingeniería eléctrica un sistema monofásico es un sistema de producción, distribución y consumo de energía eléctrica formado por una única corriente alterna o fase y por lo tanto, todo el voltaje varía de la misma forma. La distribución monofásica de la electricidad se suele usar cuando las cargas son principalmente de iluminación y de calefacción, y para pequeños motores eléctricos. 

@@ -25,13 +25,13 @@
               .titulo-sexto.color-acento-contenido
                 p.titulo.pb-0.mb-0 #[b Figura 1.] <i>Circuito eléctrico simple</i>
               figure
-                img(src='@/assets/curso/tema1-imagen2.svg')
+                img(src='@/assets/curso/tema1-imagen3.svg')
           .col-12.col-lg-6.mb-lg-0.mb-5.d-flex(data-aos="slide-right" data-aos-delay="800")
             div.box-light-25.color-primario.w-100.p-4
               .titulo-sexto.color-acento-contenido
                 p.titulo.pb-0.mb-0 #[b Figura 2.] <i>Diagrama de un circuito eléctrico simple</i>
               figure
-                img(src='@/assets/curso/tema1-imagen3.svg')
+                img(src='@/assets/curso/tema1-imagen2.svg')
 
     p.mb-5 Para que exista una corriente eléctrica se requiere la conexión entre la fuente y la resistencia formando así un circuito cerrado, por ejemplo, una bombilla conectada a una pila forma un circuito cerrado. La corriente va desde el terminal negativo (-), pasa por la lámpara, llega al borde positivo (+), continúa su recorrido por dentro de la pila desde este terminal positivo (+) hasta el terminal negativo (-).
       br
@@ -44,12 +44,12 @@
           .col-12.pt-3
             .titulo-sexto.color-acento-contenido
               p.titulo.pb-0.mb-0 #[b Figura 3.] #[i Circuito eléctrico cerrado - abierto]
-          .col-12.col-lg-6.mb-5.mb-lg-0.d-flex(data-aos="slide-left" data-aos-delay="600")
-            div.box-light-25.color-primario.w-100.p-4
+          .col-12.col-lg-6.mb-lg-0.d-flex(data-aos="slide-left" data-aos-delay="600")
+            div.box-light-25.color-primario.w-100.p-3
               figure
                 img(src='@/assets/curso/tema1-imagen4.svg')
           .col-12.col-lg-6.d-flex(data-aos="slide-right" data-aos-delay="600")
-            div.box-light-25.color-primario.w-100.p-4
+            div.box-light-25.color-primario.w-100.p-3
               figure
                 img(src='@/assets/curso/tema1-imagen5.svg')
 
