@@ -207,7 +207,7 @@ export default {
       referencia:
         'Servicio Nacional de Aprendizaje - SENA. (1980). Diferencia de potencial y corriente eléctrica. SENA.',
       tipo: 'Cartilla PDF',
-      link: 'https://hdl.handle.net/11404/1839',
+      link: 'https://repositorio.sena.edu.co/handle/11404/1839',
     },
     {
       tema: 'Facturas de energía eléctrica',
@@ -323,11 +323,11 @@ export default {
     },
     {
       referencia: 'Mantilla, G. (1985). Fuerza, trabajo y potencia. SENA.',
-      link: 'https://hdl.handle.net/11404/1851',
+      link: 'https://repositorio.sena.edu.co/handle/11404/1851',
     },
     {
       referencia: 'Mantilla, G. (1983). La Ley de Ohm. Unidad 19. SENA.',
-      link: 'https://hdl.handle.net/11404/1846',
+      link: 'https://repositorio.sena.edu.co/handle/11404/1846',
     },
     {
       referencia:

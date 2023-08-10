@@ -182,7 +182,7 @@
               figcaption
                 i Conexión de tres impedancias formando un triángulo equilibrado 
           .col-md-6
-            p.mb-0 Así pues, en el caso de un sistema de tres impedancias la conexión triángulo se realiza como se muestra en la imagen. Ambas figuras son equivalentes y son dos formas de representar la misma conexión que, al tratarse de impedancias iguales, se trata de un triángulo equilibrado. 
+            p.mb-0 Así pues, en el caso de un sistema de tres impedancias la conexión triángulo se realiza como se muestra en la imagen. Ambas imagenes son equivalentes y son dos formas de representar la misma conexión que, al tratarse de impedancias iguales, se trata de un triángulo equilibrado. 
 
         
         .row(titulo="").justify-content-center.gx-5
@@ -313,7 +313,7 @@
             p.titulo.pb-0.mb-0 #[b Figura 12.] #[i Corriente alterna monofásica]
           figure.mb-2
             img(src='@/assets/curso/tema3-imagen33.svg', alt='Texto que describa la imagen')
-          p.mb-4 La corriente circula en un sentido u otro 50 veces por seg. y se denomina monofásica por que gira en un solo conductor o bobina
+          p.mb-4 La corriente circula en un sentido u otro 50 veces por seg. y se denomina monofásica por que gira en un solo conductor o bobina.
       .col-md-6.d-flex
         .box-light-25.color-primario.p-5
           .h3 Neutro y tierra
