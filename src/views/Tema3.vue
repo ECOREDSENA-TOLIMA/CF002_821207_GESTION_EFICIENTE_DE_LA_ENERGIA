@@ -182,7 +182,7 @@
               figcaption
                 i Conexión de tres impedancias formando un triángulo equilibrado 
           .col-md-6
-            p.mb-0 Así pues, en el caso de un sistema de tres impedancias la conexión triángulo se realiza como se muestra en la imagen. Ambas imagenes son equivalentes y son dos formas de representar la misma conexión que, al tratarse de impedancias iguales, se trata de un triángulo equilibrado. 
+            p.mb-0 Así pues, en el caso de un sistema de tres impedancias la conexión triángulo se realiza como se muestra en la imagen. Ambas imágenes son equivalentes y son dos formas de representar la misma conexión que, al tratarse de impedancias iguales, se trata de un triángulo equilibrado. 
 
         
         .row(titulo="").justify-content-center.gx-5
@@ -271,7 +271,7 @@
               img(src='@/assets/curso/tema3-imagen16.svg', alt='Texto que describa la imagen')
 
           .col-md-6
-            p.mb-0 Si bien en un triángulo no se utiliza el neutro, la red a la que está conectado sí puede tener neutro, bien porque los generadores están conectados como una de las imagenes anteriores y que se colocan a continuación, o porque exista otra carga equilibrada en estrella en paralelo con el triángulo. 
+            p.mb-0 Si bien en un triángulo no se utiliza el neutro, la red a la que está conectado sí puede tener neutro, bien porque los generadores están conectados como una de las imágenes anteriores y que se colocan a continuación, o porque exista otra carga equilibrada en estrella en paralelo con el triángulo. 
               br
               br
               | Se sabe entonces que las tensiones simples o fase-neutro tienen un módulo √3 menor que las tensiones de línea y están retrasadas 30° con respecto a estas.
