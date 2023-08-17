@@ -119,7 +119,7 @@
     .row.mb-5
       .col-lg-5.mb-5.mb-lg-0.d-flex(data-aos="slide-left" data-aos-duration="900")
         .cajon.color-acento-contenido.px-5.py-4.mb-4
-          p.mb-0 Es potencia compleja de un circuito eléctrico de corriente alterna, cuya magnitud se conoce como potencia aparente y se identifica con la letra S; es la suma vectorial de la potencia que disipa dicho circuito y se transforma en calor o trabajo, conocida como potencia promedio, activa o real, que se designa con la letra P y se mide en vatios <strong>(W)</strong> y la potencia utilizada para la formación de los campos eléctrico y magnético de sus componentes, que fluctúa entre estos componentes y la fuente de energía, conocida como potencia reactiva, que se identifica con la letra Q y se mide en voltamperios reactivos (VAr). Como se muestra en la figura 2.
+          p.mb-0 Es potencia compleja de un circuito eléctrico de corriente alterna, cuya magnitud se conoce como potencia aparente y se identifica con la letra S; es la suma vectorial de la potencia que disipa dicho circuito y se transforma en calor o trabajo, conocida como potencia promedio, activa o real, que se designa con la letra P y se mide en vatios <strong>(W)</strong> y la potencia utilizada para la formación de los campos eléctrico y magnético de sus componentes, que fluctúa entre estos componentes y la fuente de energía, conocida como potencia reactiva, que se identifica con la letra Q y se mide en voltamperios reactivos (VAr). Como se muestra en la figura 8.
       .col-lg-7.d-flex(data-aos="slide-right" data-aos-duration="900")
         .box-light-25.p-3
           .titulo-sexto.color-acento-contenido
