@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="489" viewBox="0 0 420 489">
+  <g id="Grupo_55466" data-name="Grupo 55466" transform="translate(-370 -8170)">
+    <rect id="Rectángulo_5223" data-name="Rectángulo 5223" width="420" height="489" transform="translate(370 8170)" fill="#fff"/>
+    <g id="Grupo_54902" data-name="Grupo 54902" transform="translate(59 -33)">
+      <path id="Trazado_105770" data-name="Trazado 105770" d="M-8375-3360.5v-61h-185v56l14,7-27.5,12,27.5,11-27.5,10.5,27.5,11.5-27.5,12,13.5,6v57h185v-61" transform="translate(9000 11700)" fill="none" stroke="#636363" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <text id="R" transform="translate(472 8378)" fill="#12263f" font-size="30" font-family="TimesNewRomanPS-BoldItalicMT, Times New Roman" font-weight="700" font-style="italic"><tspan x="0" y="0">R</tspan></text>
+      <text id="L" transform="translate(583 8378)" fill="#12263f" font-size="30" font-family="TimesNewRomanPS-BoldItalicMT, Times New Roman" font-weight="700" font-style="italic"><tspan x="0" y="0">L</tspan></text>
+      <text id="i_t_" data-name="i(t)" transform="translate(524 8247)" fill="#ed028c" font-size="24" font-family="TimesNewRomanPS-ItalicMT, Times New Roman" font-style="italic"><tspan x="0" y="0">i(t)</tspan></text>
+      <g id="Grupo_54898" data-name="Grupo 54898">
+        <text id="_-" data-name="+
+-" transform="translate(384 8334)" fill="#ed028c" font-size="24" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">+</tspan><tspan x="0" y="90">-</tspan></text>
+        <text id="VR" transform="translate(379 8378)" fill="#ed028c" font-size="24" font-family="TimesNewRomanPS-ItalicMT, Times New Roman" font-style="italic"><tspan x="0" y="0">V</tspan><tspan y="0" font-size="13.999" baseline-shift="-7.999199924145271">R</tspan></text>
+      </g>
+      <g id="Grupo_54897" data-name="Grupo 54897">
+        <text id="_--2" data-name="+
+-" transform="translate(647 8334)" fill="#ed028c" font-size="24" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">+</tspan><tspan x="0" y="90">-</tspan></text>
+        <text id="VL" transform="translate(642 8378)" fill="#ed028c" font-size="24" font-family="TimesNewRomanPS-ItalicMT, Times New Roman" font-style="italic"><tspan x="0" y="0">V</tspan><tspan y="0" font-size="13.999" baseline-shift="-7.999199924145271">L</tspan></text>
+      </g>
+      <path id="Trazado_105774" data-name="Trazado 105774" d="M-8368.428-3606.8s9.936.294,9.936,11.708-19.013,8.946-19.258,5.512,18.88-6.862,19.258,5.15-19.258,14.247-19.258,8.829,19.632-3.434,19.258,8.093-19.5,10.791-19.258,5.886,19.877-3.188,19.258,7.6-9.936,8.469-9.936,8.469" transform="translate(8992.928 11945.804)" fill="none" stroke="#636363" stroke-width="4"/>
+      <path id="Trazado_105775" data-name="Trazado 105775" d="M272.7,845.44H237.641l1.583-2.6-.123-.082-5.875,2.334-6.14,1.351,6.14,1.351,5.875,2.334.123-.062-1.586-2.623H272.7Z" transform="translate(788.395 9110.125) rotate(180)" fill="#ed028c"/>
+    </g>
+    <g id="Grupo_54909" data-name="Grupo 54909" transform="translate(528 8472)">
+      <text id="VR_VL_0_Ri_L_0_i_t_Ae_-_t_" data-name="VR + VL = 0
+
+Ri + L      = 0
+
+i(t) = Ae -     t
+" transform="translate(0 18)" fill="#12263f" font-size="19" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">V</tspan><tspan y="0" font-size="11.083" baseline-shift="-6.332699871831665">R</tspan><tspan y="0" xml:space="preserve"> + V</tspan><tspan y="0" font-size="11.083" baseline-shift="-6.332699871831665">L</tspan><tspan y="0" xml:space="preserve"> = 0</tspan><tspan x="0" y="26"></tspan><tspan x="0" y="52" xml:space="preserve">Ri + L      = 0</tspan><tspan x="0" y="78"></tspan><tspan x="0" y="104">i(t) = A</tspan><tspan y="104" font-family="Roboto-Italic, Roboto" font-style="italic">e</tspan><tspan y="104" xml:space="preserve"> -    </tspan><tspan y="104" xml:space="preserve" font-family="Roboto-Italic, Roboto" font-style="italic"> t</tspan><tspan font-family="Roboto-Italic, Roboto" font-style="italic"><tspan x="0" y="130"></tspan></tspan></text>
+      <g id="Grupo_54903" data-name="Grupo 54903" transform="translate(54.801 40.101)">
+        <text id="di" transform="translate(0.199 16.898)" fill="#12263f" font-size="19" font-family="TimesNewRomanPS-ItalicMT, Times New Roman" font-style="italic"><tspan x="0" y="0">di</tspan></text>
+        <text id="dt" transform="translate(0.199 44.898)" fill="#12263f" font-size="19" font-family="TimesNewRomanPS-ItalicMT, Times New Roman" font-style="italic"><tspan x="0" y="0">dt</tspan></text>
+        <line id="Línea_175" data-name="Línea 175" x2="16.745" transform="translate(0 25.117)" fill="none" stroke="#12263f" stroke-width="1"/>
+      </g>
+      <g id="Grupo_54908" data-name="Grupo 54908" transform="translate(83.724 92.946)">
+        <text id="R-2" data-name="R" transform="translate(3.276 18.055)" fill="#12263f" font-size="20" font-family="TimesNewRomanPS-ItalicMT, Times New Roman" font-style="italic"><tspan x="0" y="0">R</tspan></text>
+        <text id="L-2" data-name="L" transform="translate(4.276 39.055)" fill="#12263f" font-size="18" font-family="TimesNewRomanPS-ItalicMT, Times New Roman" font-style="italic"><tspan x="0" y="0">L</tspan></text>
+        <line id="Línea_176" data-name="Línea 176" x2="16.745" transform="translate(0 23.595)" fill="none" stroke="#12263f" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>

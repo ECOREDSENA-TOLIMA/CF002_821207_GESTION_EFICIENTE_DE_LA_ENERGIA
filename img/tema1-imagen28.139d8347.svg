@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="489" viewBox="0 0 420 489">
+  <g id="Grupo_55467" data-name="Grupo 55467" transform="translate(-810 -8170)">
+    <rect id="Rectángulo_5247" data-name="Rectángulo 5247" width="420" height="489" transform="translate(810 8170)" fill="#fff"/>
+    <g id="Grupo_54901" data-name="Grupo 54901" transform="translate(-43 -34)">
+      <text id="C" transform="translate(925 8378)" fill="#12263f" font-size="30" font-family="TimesNewRomanPS-BoldItalicMT, Times New Roman" font-weight="700" font-style="italic"><tspan x="0" y="0">C</tspan></text>
+      <text id="R" transform="translate(1182 8378)" fill="#12263f" font-size="30" font-family="TimesNewRomanPS-BoldItalicMT, Times New Roman" font-weight="700" font-style="italic"><tspan x="0" y="0">R</tspan></text>
+      <text id="i" transform="translate(1057 8247)" fill="#ed028c" font-size="24" font-family="TimesNewRomanPS-ItalicMT, Times New Roman" font-style="italic"><tspan x="0" y="0">i</tspan></text>
+      <g id="Grupo_54900" data-name="Grupo 54900" transform="translate(409)">
+        <text id="_-" data-name="+
+-" transform="translate(654 8318)" fill="#ed028c" font-size="24" font-family="Roboto-Regular, Roboto"><tspan x="-6.803" y="0">+</tspan><tspan x="-3.311" y="120">-</tspan></text>
+        <text id="v" transform="translate(653 8378)" fill="#ed028c" font-size="24" font-family="TimesNewRomanPS-ItalicMT, Times New Roman" font-style="italic"><tspan x="-5.326" y="0">v</tspan></text>
+      </g>
+      <g id="Grupo_54899" data-name="Grupo 54899" transform="translate(0 3.167)">
+        <path id="Trazado_105771" data-name="Trazado 105771" d="M-8021.333-3326v85.333H-7844V-3298l-13.333-5.333,28-11.333-28-11.333,28-12-28-11.333,28-10.667-14.667-6v-58.667h-177.333V-3338" transform="translate(9000 11700)" fill="none" stroke="#636363" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+        <path id="Trazado_105772" data-name="Trazado 105772" d="M-8040.333-3337.333h39" transform="translate(9000 11700)" fill="none" stroke="#636363" stroke-linecap="round" stroke-width="4"/>
+        <path id="Trazado_105773" data-name="Trazado 105773" d="M-8001.333-3323s-20.667-7-38.667,0" transform="translate(9000 11700)" fill="none" stroke="#636363" stroke-linecap="round" stroke-width="4"/>
+      </g>
+      <path id="Trazado_105776" data-name="Trazado 105776" d="M272.7,845.44H237.641l1.583-2.6-.123-.082-5.875,2.334-6.14,1.351,6.14,1.351,5.875,2.334.123-.062-1.586-2.623H272.7Z" transform="translate(1315.061 9110.125) rotate(180)" fill="#ed028c"/>
+    </g>
+    <g id="Grupo_54907" data-name="Grupo 54907" transform="translate(965.398 8472.313)">
+      <text id="iC_iR_0_C_0_v_t_Ae_-_" data-name="iC + iR = 0
+
+C      +      = 0
+
+v(t) = Ae - " transform="translate(-0.398 17.688)" fill="#12263f" font-size="19" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">i</tspan><tspan y="0" font-size="15">C</tspan><tspan y="0" xml:space="preserve"> + i</tspan><tspan y="0" font-size="15">R</tspan><tspan y="0" xml:space="preserve"> = 0</tspan><tspan x="0" y="26"></tspan><tspan x="0" y="52" xml:space="preserve">C      +      = 0</tspan><tspan x="0" y="78"></tspan><tspan x="0" y="104">v(t) = A</tspan><tspan y="104" font-family="Roboto-Italic, Roboto" font-style="italic">e</tspan><tspan y="104" xml:space="preserve"> - </tspan></text>
+      <g id="Grupo_54905" data-name="Grupo 54905" transform="translate(17.745 41.101)">
+        <text id="dv" transform="translate(-0.143 16.588)" fill="#12263f" font-size="19" font-family="TimesNewRomanPS-ItalicMT, Times New Roman" font-style="italic"><tspan x="0" y="0">dv</tspan></text>
+        <text id="dt" transform="translate(-0.143 44.588)" fill="#12263f" font-size="19" font-family="TimesNewRomanPS-ItalicMT, Times New Roman" font-style="italic"><tspan x="0" y="0">dt</tspan></text>
+        <line id="Línea_177" data-name="Línea 177" x2="16.745" transform="translate(0 25.117)" fill="none" stroke="#12263f" stroke-width="1"/>
+      </g>
+      <g id="Grupo_54906" data-name="Grupo 54906" transform="translate(89.813 91.424)">
+        <text id="t" transform="translate(5.789 18.266)" fill="#12263f" font-size="20" font-family="TimesNewRomanPS-ItalicMT, Times New Roman" font-style="italic"><tspan x="0" y="0">t</tspan></text>
+        <text id="RC" transform="translate(-0.211 45.266)" fill="#12263f" font-size="15" font-family="TimesNewRomanPS-ItalicMT, Times New Roman" font-style="italic"><tspan x="0" y="0">RC</tspan></text>
+        <line id="Línea_177-2" data-name="Línea 177" x2="16.745" transform="translate(0 25.117)" fill="none" stroke="#12263f" stroke-width="1"/>
+      </g>
+      <g id="Grupo_54904" data-name="Grupo 54904" transform="translate(56.279 41.101)">
+        <text id="v-2" data-name="v" transform="translate(4.323 17.588)" fill="#12263f" font-size="20" font-family="TimesNewRomanPS-ItalicMT, Times New Roman" font-style="italic"><tspan x="0" y="0">v</tspan></text>
+        <text id="R-2" data-name="R" transform="translate(1.323 45.588)" fill="#12263f" font-size="20" font-family="TimesNewRomanPS-ItalicMT, Times New Roman" font-style="italic"><tspan x="0" y="0">R</tspan></text>
+        <line id="Línea_178" data-name="Línea 178" x2="16.745" transform="translate(0 25.117)" fill="none" stroke="#12263f" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>
